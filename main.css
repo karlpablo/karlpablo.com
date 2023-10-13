@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700;800&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700;800&family=Play:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -50,4 +50,48 @@
   top: 4px;
   left: 4px;
   box-shadow: 0px 0px 0px #000;
+}
+
+.work {
+  @apply relative bg-white border-2 border-black rounded;
+  box-shadow: 8px 8px 0px #000;
+}
+
+.work-banner {
+  @apply absolute top-0 left-1/2 font-mono bg-burnt-sienna border-2 border-black rounded-full px-4;
+  @apply text-lg text-white;
+  @apply transform -translate-x-1/2 -translate-y-1/2
+}
+
+.work-header {
+  @apply p-6 text-2xl border-b-2 border-black flex flex-row justify-start items-center;
+}
+
+.work-header h3 {
+  @apply font-bold;
+}
+
+.work-logo {
+  @apply w-14 h-14 mr-6 rounded;
+}
+
+.work-body {
+  @apply p-6 bg-[#F3F3F3] space-y-6 text-lg;
+}
+
+.work-body p:first-child {
+  @apply font-bold;
+}
+
+.work-achievement {
+  @apply relative;
+}
+
+.work-achievement:before {
+  @apply absolute w-12 h-12 left-0 top-0;
+  @apply transform -translate-x-full rotate-45;
+  content: "";
+  background: url('/star.png') no-repeat;
+  background-size: contain;
+/*  transform: translate;*/
 }
