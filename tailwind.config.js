@@ -4,9 +4,9 @@ export default {
   content: ['./index.html',],
   theme: {
     screens: {
-      'xs': '600px',
-      'md': '800px',
-      'lg': '1000px',
+      'sm': '600px',
+      'md': '780px',
+      'lg': '960px',
     },
     extend: {
       fontFamily: {
