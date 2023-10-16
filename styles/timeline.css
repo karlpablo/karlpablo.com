@@ -1,0 +1,17 @@
+@layer components {
+  .timeline {
+    background-color: #f00;
+    display: grid;
+    place-items: start stretch;
+    place-content: center start;
+    grid-template-columns: [ls] 1fr [le] 100px [rs] 1fr [re];
+    grid-template-rows: repeat(15, 100px);
+    column-gap: 1rem;
+  }
+
+  .timeline .year {
+    background-color: #0f0;
+    grid-column: le / rs;
+/*    place-self: center;*/
+  }
+}
