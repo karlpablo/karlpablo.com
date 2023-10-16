@@ -1,0 +1,25 @@
+@layer components {
+  .button {
+    @apply relative bg-gray-200 text-black px-4 py-2 rounded-xl border-2 border-black font-mono font-bold text-lg shadow-hard;
+  }
+
+  .button-primary {
+    @apply bg-persian-green;
+  }
+
+  .button-secondary {
+    @apply bg-burnt-sienna;
+  }
+
+  .buttonx:hover {
+    box-shadow: 5px 5px 0px #000;
+    top: -1px;
+    left: -1px;
+  }
+
+  .button:active {
+    top: 4px;
+    left: 4px;
+    box-shadow: 0px 0px 0px #000;
+  }
+}

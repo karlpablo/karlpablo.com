@@ -1,0 +1,46 @@
+@layer components {
+  .work {
+    @apply relative bg-white border-2 border-black text-black;
+    box-shadow: 6px 6px 0px #000;
+  }
+
+  .work-banner {
+    @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+    @apply font-light bg-persian-green border-2 border-black rounded-full px-4 text-white;
+  }
+
+  .work-header {
+    @apply p-6 flex flex-row justify-start items-center bg-white leading-tight;
+  }
+
+  .work-header h3 {
+    @apply font-bold text-xl;
+  }
+
+  .work-logo {
+    @apply w-10 h-10 mr-4 md:w-12 md:h-12 md:mr-6 rounded;
+  }
+
+  .work-body {
+    @apply border-t-2 border-black p-6 bg-white space-y-6;
+  }
+
+  .work-body strong {
+    @apply font-normal text-burnt-sienna;
+  }
+
+  .work-body a {
+    @apply underline;
+  }
+
+  .work-achievement {
+    @apply relative ml-8 pl-4;
+  }
+
+  .work-achievement:before {
+    @apply absolute w-8 h-8 left-0 top-0 transform -translate-x-full rotate-45;
+    content: "";
+    background: url('/star.png') no-repeat;
+    background-size: contain;
+  }
+}
