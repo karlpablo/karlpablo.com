@@ -1,12 +1,15 @@
 @layer components {
   .work {
     @apply relative bg-white border-2 border-black text-black;
+    /* make it scrollable */
+    /* @apply h-full flex flex-col; */
+
     box-shadow: 6px 6px 0px #000;
   }
 
   .work-banner {
     @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
-    @apply font-light bg-persian-green border-2 border-black rounded-full px-4 text-white;
+    @apply font-light bg-black text-white text-sm font-mono rounded px-4 py-1;
   }
 
   .work-header {
@@ -23,7 +26,9 @@
 
   .work-body {
     @apply border-t-2 border-black p-6 bg-white space-y-6;
-    overflow-y: scroll;
+
+    /* make it scrollable */
+    /* @apply h-full overflow-y-scroll; */
   }
 
   .work-body strong {
