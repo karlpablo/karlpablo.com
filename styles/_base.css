@@ -1,4 +1,12 @@
 @layer base {
+  html {
+    background-color: var(--sublime-bg);
+  }
+
+  body {
+    background-color: white;
+  }
+
   .bg-code {
     background: url('/code.png') 0% 0% no-repeat;
     background-size: 16em;
@@ -14,7 +22,7 @@
 
   .heading {
     @apply relative flex flex-col w-1/2 mx-auto;
-    @apply text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight;
+    @apply text-3xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight;
   }
 
   .heading span {

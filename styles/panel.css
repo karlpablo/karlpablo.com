@@ -17,7 +17,7 @@
   }
 
   .work-header h3 {
-    @apply font-bold text-xl;
+    @apply font-bold text-lg md:text-xl;
   }
 
   .work-logo {
