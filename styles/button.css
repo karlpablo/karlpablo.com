@@ -1,18 +1,14 @@
 @layer components {
   .button {
-    @apply relative px-4 py-2 rounded-full border-2 border-black;
-    @apply bg-burnt-sienna text-white font-mono font-bold text-xl;
+    @apply px-4 py-2 rounded transition-all transform;
+    @apply bg-black text-white font-mono font-bold text-xl no-underline;
   }
 
-  .button:hover {
-    box-shadow: 3px 3px 0px #000;
-    top: -3px;
-    left: -3px;
+  .button-default {
+    @apply bg-black hover:bg-gray-700 text-white;
   }
 
-  .button:active {
-    top: 0px;
-    left: 0px;
-    box-shadow: 0px 0px 0px #000;
+  .button-primary {
+    @apply bg-burnt-sienna hover:contrast-125;
   }
 }

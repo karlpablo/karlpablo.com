@@ -1,3 +1,4 @@
-@import './panel';
 @import './button';
+@import './work';
+@import './project';
 @import './timeline';

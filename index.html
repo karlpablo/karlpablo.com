@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="en" class="bg-[#262335]">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/disapprove.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karl Pablo</title>
   </head>
-  <body class="bg-white">    
   <body>
     <noscript>
       <p class="p-4 bg-burnt-sienna text-white text-center">
@@ -14,9 +13,17 @@
       </p>
     </noscript>
     <header class="h-screen relative">
-      <a href="https://github.com/karlpablo/portfolio-2024" target="_blank" class="code-peel absolute top-0 left-0 w-[50px] h-[50px]">
+      <a href="https://github.com/karlpablo/portfolio-2024"
+         target="_blank" 
+         class="code-peel absolute top-0 left-0 w-[30px] h-[30px]">
         <img src="/code-peel.png" />
       </a>
+      <nav class="absolute z-50 top-0 right-0 p-6 flex flex-row gap-x-12 items-center text-xl">
+        <a href="#professional-experience" class="underline">Experience</a>
+        <a href="#featured-projects" class="underline">Projects</a>
+        <a href="#open-source" class="underline">OSS</a>
+        <a href="#contact-me" class="button button-primary">Contact Me</a>
+      </nav>
       <div class="h-full relative z-40 container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-12 sm:p-6">
         <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
           <h1 class="text-persian-green">Karl Pablo</h1>
@@ -24,8 +31,8 @@
         </div>
         <p class="text-black text-lg sm:text-xl md:text-2xl">
           <span class="font-bold">Over 13 years of building delightful user interfaces and websites for top brands.</span>
-          Specializes in <span class="text-burnt-sienna">React</span> and <span class="text-burnt-sienna">Vue</span>.
-          Highly proficient with <span class="text-burnt-sienna">Tailwind</span>.
+          Specializes in <b class="term">React</b> and <b class="term">Vue</b>.
+          Highly proficient with <b class="term">Tailwind</b>.
         </p>
         <img src="./top-clients.png" class="hidden sm:block grayscale" alt="Top clients include Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
         <img src="./top-clients-stacked.png" class="sm:hidden grayscale" alt="Top clients include Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
@@ -33,8 +40,8 @@
     </header>
 
     <main>
-      <section class="bg-charcoal px-6 sm:px-0 py-12 md:pt-20 md:pb-0">
-        <div class="h-full container mx-auto flex flex-col gap-y-6 md:gap-y-8">
+      <section id="professional-experience" class="bg-charcoal px-6 sm:px-0 py-12 md:pt-20 md:pb-0">
+        <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8">
           <h2 class="heading mb-2 md:mb-6">
             <span class="text-white">Professional</span>
             <span class="text-persian-green">Experience</span>
@@ -61,22 +68,22 @@
             <div class="year"></div>
 
             <!-- for hire -->
-            <div class="work md:col-[rs/re] md:row-[1/2]">
+            <article class="work md:col-[rs/re] md:row-[1/2]">
               <div class="work-banner">Present</div>
               <div class="work-header">
-                <div class="w-full flex flex-col gap-2 justify-center">
+                <div class="w-full flex flex-col gap-4 justify-center">
                   <h3 class="text-center">#opentowork</h3>
-                  <button class="button">Hire me!</button>
+                  <a href="#contact-me" class="button button-primary text-center">Hire me!</a>
                 </div>
               </div>
-            </div>
+            </article>
 
             <!-- imarc -->
-            <div class="work md:col-[ls/le] md:row-[2/5]">
+            <article class="work md:col-[ls/le] md:row-[2/5]">
               <div class="work-banner">2020 - 2023</div>
               <div class="work-header">
                 <a href="#">
-                  <img class="work-logo" src="/work/imarc.png" alt="Imarc" />
+                  <img class="work-logo" src="/icons/imarc.png" alt="Imarc" />
                 </a>
                 <div>
                   <h3>Lead Front-end Engineer</h3>
@@ -88,14 +95,14 @@
                 <p class="work-achievement">Significantly reduced meetings between Creative and Engineering teams (est. 50%) by establishing more efficient ways to collaborate through design systems, component libraries, and visual regression tests.</p>
                 <p class="work-achievement">Devised a smart solution for a project which had component-loading issues, saving the company an estimated $100,000 in development costs.</p>
               </div>
-            </div>
+            </article>
 
             <!-- spinifex -->
-            <div class="work md:col-[rs/re] md:row-[6/9]">
+            <article class="work md:col-[rs/re] md:row-[6/9]">
               <div class="work-banner">2016 - 2019</div>
               <div class="work-header">
                 <a href="#">
-                  <img class="work-logo" src="/work/spinifexgroup.png" alt="Spinifex Group" />
+                  <img class="work-logo" src="/icons/spinifexgroup.png" alt="Spinifex Group" />
                 </a>
                 <div>
                   <h3>Sr. Front-end Engineer</h3>
@@ -106,14 +113,14 @@
                 <p>Built touchscreen <strong>Electron</strong> + <strong>Vue</strong> apps for top clients (<a href="#">IBM</a>, <a href="#">Cisco</a>, <a href="#">Mazda</a>, <a href="#">Lexus</a>, and <a href="#">Honda</a>) which were displayed at tech conventions and regional auto shows.</p>
                 <p class="work-achievement">Introduced app deployment strategies which reduced operational and maintenance costs by a staggering 90%.</p>
               </div>
-            </div>
+            </article>
 
             <!-- deutsch -->
-            <div class="work md:col-[ls/le] md:row-[9/12]">
+            <article class="work md:col-[ls/le] md:row-[9/12]">
               <div class="work-banner">2013 - 2016</div>
               <div class="work-header">
                 <a href="#">
-                  <img class="work-logo" src="/work/deutschla.png" alt="Deutsch LA" />
+                  <img class="work-logo" src="/icons/deutschla.png" alt="Deutsch LA" />
                 </a>
                 <div>
                   <h3>Creative Developer</h3>
@@ -124,14 +131,14 @@
                 <p>Built <a href="#">Volkswagen USA</a>'s marketing website using <strong>jQuery</strong>, <strong>Bootstrap</strong>, and <strong>AEM</strong> as part of a 10-person engineering team.</p>
                 <p class="work-achievement">Drove a mobile-first, responsive approach to frontend development vs. building a separate website for mobile devices, saving the company an estimated $150,000.</p>
               </div>
-            </div>
+            </article>
 
             <!-- fip -->
-            <div class="work md:col-[rs/re] md:row-[14/16]">
+            <article class="work md:col-[rs/re] md:row-[14/16]">
               <div class="work-banner">2009 - 2011</div>
               <div class="work-header">
                 <a href="#">
-                  <img class="work-logo" src="/work/finditparts.png" alt="FinditParts" />
+                  <img class="work-logo" src="/icons/finditparts.png" alt="FinditParts" />
                 </a>
                 <div>
                   <h3>Web Developer</h3>
@@ -142,34 +149,197 @@
                 <p>Managed the company's <a href="#">e-commerce website</a> and curated its database of more than 2 million items.</p>
                 <p class="work-achievement">Created web scraping scripts in <strong>Python</strong> to supplement product information, increasing presence in search engines and ensuring first-page placements in search results.</p>
               </div>
-            </div>
+            </article>
 
             <!-- slu -->
-            <div class="work md:col-[ls/le] md:row-[17/18]">
+            <article class="work md:col-[ls/le] md:row-[17/18]">
               <div class="work-banner">Graduated in 2008</div>
               <div class="work-header">
                 <a href="#">
-                  <img class="work-logo" src="/work/slu.png" alt="Saint Louis University" />
+                  <img class="work-logo" src="/icons/slu.png" alt="Saint Louis University" />
                 </a>
                 <div>
                   <h3>B.S. in Computer Science</h3>
                   <a href="#" class="underline">Saint Louis University</a>
                 </div>
               </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured-projects" class="bg-persian-green px-6 sm:px-0 py-12">
+        <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
+          <h2 class="heading mb-6">
+            <span class="text-white">Featured</span>
+            <span class="text-charcoal">Projects</span>
+          </h2>
+          <div class="projects">
+
+            <article class="project">
+              <div class="desc">
+                <div class="desc-main">
+                  <div class="desc-header">
+                    <h3>LeaseAhoy!</h3>
+                    <span><a href="https://leaseahoy.com" target="_blank">leaseahoy.com</a></span>
+                  </div>
+                  <div class="desc-body space-y-4">
+                    <p>A data aggregation and comparison website for vehicle lease rates. This website helps people avoid getting overcharged at dealerships.</p>
+                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">React</b>, <b class="term">Tailwind</b>, and <b class="term">PostgreSQL</b>. Hosted on <b class="term">Netlify</b> and makes use of <b class="term">Serverless Functions</b>.</p>
+                  </div>
+                </div>
+                <div class="desc-footer">
+                  <a href="https://leaseahoy.com" target="_blank" class="button button-primary">Visit</a>
+                  <a href="https://github.com/karlpablo/leaseahoy-react" target="_blank" class="button button-default">Source</a>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/leaseahoy.png" />
+              </div>
+            </article>
+
+            <!-- <article class="project">
+              <div class="desc">
+                <div class="desc-header">
+                  <h3>Volkswagen 3.0</h3>
+                  <a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/">vw.com (archive)</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/vw.png" />
+              </div>
+            </article> -->
+
+            <!--
+            <article class="project">
+              <div class="desc">
+                <h3>Breezeline - Marketing Website</h3>
+                <a href="#">breezeline.com</a>
+                <div>
+                  <p>Formerly known as Atlantic Broadband, Breezeline is one of the largest providers of internet, TV, and phone services to the East Coast.</p>
+                  <p>Imarc hired me as part of a dedicated team to build the front-end of their marketing website.</p>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/breezeline.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>Breezeline - Account Portal</h3>
+                <a href="#">myaccount.breezeline.com</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/myaccount.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>eRegulations</h3>
+                <a href="#">eregulations.com</a>
+                <div>
+                  <p>Formerly known as Atlantic Broadband, Breezeline is one of the largest providers of internet, TV, and phone services to the East Coast.</p>
+                  <p>Imarc hired me as part of a dedicated team to build the front-end of their marketing website.</p>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/eregulations.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>Digital Automotive Brochures</h3>
+                <a href="#">-</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>Social Media Wall</h3>
+                <a href="#">-</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>Student Management System</h3>
+                <a href="#">tgsmci.com/admin</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/tgsmci.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="desc">
+                <h3>Customer Management System</h3>
+                <a href="#">ACG</a>
+                <div>
+                </div>
+              </div>
+              <div class="media">
+                <img src="/browsershots/acg.png" />
+              </div>
+            </article>
+            -->
+          </div>
+        </div>
+      </section>
+
+      <section id="open-source" class="bg-burnt-sienna px-6 sm:px-0 py-12">
+        <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
+          <h2 class="heading mb-6">
+            <span class="text-charcoal">Open</span>
+            <span class="text-white">Source</span>
+          </h2>
+          <div class="osss">
+            <div class="oss">
+              <h3>Timeline.js</h3>
+            </div>
+            <div class="oss">
+              <h3>Neobrutalism Design System</h3>
+            </div>
+            <div class="oss">
+              <h3>US Vehicle API</h3>
+            </div>
+            <div class="oss">
+              <h3>Reddit Comment Deleter</h3>
+            </div>
+            <div class="oss">
+              <h3>API-to-JSON</h3>
+            </div>
+            <div class="oss">
+              <h3>Grid System</h3>
+            </div>
+            <div class="oss">
+              <h3>Websocket App</h3>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="sm:h-screen bg-persian-green">
-        <div class="h-full container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-6">
-          <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white">Recent Projects</h2>
-        </div>
-      </section>
-
-      <section class="sm:h-screen bg-burnt-sienna">
-        <div class="h-full container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-6">
-          <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white">Get In Touch</h2>
+      <section id="contact-me" class="bg-black px-6 sm:px-0 py-12">
+        <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
+          <h2 class="heading mb-6">
+            <span class="text-white">Get In</span>
+            <span class="text-persian-green">Touch</span>
+          </h2>
         </div>
       </section>
     </main>

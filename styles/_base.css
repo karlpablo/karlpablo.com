@@ -7,6 +7,14 @@
     background-color: white;
   }
 
+  a {
+    @apply underline;
+  }
+
+  b.term {
+    @apply text-burnt-sienna;
+  }
+
   .bg-code {
     background: url('/code.png') 0% 0% no-repeat;
     background-size: 16em;

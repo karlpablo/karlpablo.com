@@ -7,16 +7,15 @@
     grid-template-rows: repeat(6, auto);
     row-gap: 2rem;
 
-    /* todo: put on md: */
-    @media (min-width: 780px) {
+    @media screen(md) {
       grid-template-columns: [ls] 1fr [le] 100px [rs] 1fr [re];
       grid-template-rows: repeat(18, 110px); /* repeat by number of div.year */
       column-gap: 1rem;
       row-gap: 0;
     }
 
-    @media (min-width: 960px) {
-      grid-template-rows: repeat(18, 100px); /* repeat by number of div.year */
+    @media screen(lg) {
+      grid-template-rows: repeat(18, 90px); /* repeat by number of div.year */
     }
   }
 
