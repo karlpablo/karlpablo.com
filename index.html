@@ -19,10 +19,10 @@
         <img src="/code-peel.png" />
       </a>
       <nav class="absolute z-50 top-0 right-0 p-6 flex flex-row gap-x-12 items-center text-xl">
-        <a href="#professional-experience" class="underline">Experience</a>
-        <a href="#featured-projects" class="underline">Projects</a>
-        <a href="#open-source" class="underline">OSS</a>
-        <a href="#contact-me" class="button button-primary">Contact Me</a>
+        <a href="#experience" class="underline">Experience</a>
+        <a href="#projects" class="underline">Projects</a>
+        <a href="#oss" class="underline">OSS</a>
+        <a href="#contact" class="button button-primary">Contact Me</a>
       </nav>
       <div class="h-full relative z-40 container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-12 sm:p-6">
         <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
@@ -38,9 +38,8 @@
         <img src="./top-clients-stacked.png" class="sm:hidden grayscale" alt="Top clients include Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
       </div>
     </header>
-
     <main>
-      <section id="professional-experience" class="bg-charcoal px-6 sm:px-0 py-12 md:pt-20 md:pb-0">
+      <section id="experience" class="bg-charcoal px-6 sm:px-0 py-12 md:pt-20 md:pb-0">
         <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8">
           <h2 class="heading mb-2 md:mb-6">
             <span class="text-white">Professional</span>
@@ -168,90 +167,110 @@
         </div>
       </section>
 
-      <section id="featured-projects" class="bg-persian-green px-6 sm:px-0 py-12">
+      <section id="projects" class="bg-persian-green px-6 sm:px-0 py-12">
         <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
           <h2 class="heading mb-6">
             <span class="text-white">Featured</span>
             <span class="text-charcoal">Projects</span>
           </h2>
-          <div class="projects">
-
+          <div class="space-y-12">
             <article class="project">
-              <div class="desc">
-                <div class="desc-main">
-                  <div class="desc-header">
-                    <h3>LeaseAhoy!</h3>
-                    <span><a href="https://leaseahoy.com" target="_blank">leaseahoy.com</a></span>
-                  </div>
-                  <div class="desc-body space-y-4">
-                    <p>A data aggregation and comparison website for vehicle lease rates. This website helps people avoid getting overcharged at dealerships.</p>
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>LeaseAhoy!</h3>
+                  <a href="https://leaseahoy.com" target="_blank">leaseahoy.com</a>
+                  <div class="project__desc">
+                    <p>A data aggregation and comparison website for vehicle lease rates. Helps people avoid getting overcharged at dealerships.</p>
                     <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">React</b>, <b class="term">Tailwind</b>, and <b class="term">PostgreSQL</b>. Hosted on <b class="term">Netlify</b> and makes use of <b class="term">Serverless Functions</b>.</p>
                   </div>
                 </div>
-                <div class="desc-footer">
+                <div class="project__links">
                   <a href="https://leaseahoy.com" target="_blank" class="button button-primary">Visit</a>
                   <a href="https://github.com/karlpablo/leaseahoy-react" target="_blank" class="button button-default">Source</a>
                 </div>
               </div>
-              <div class="media">
+              <div class="project__media">
                 <img src="/browsershots/leaseahoy.png" />
               </div>
             </article>
 
-            <!-- <article class="project">
-              <div class="desc">
-                <div class="desc-header">
-                  <h3>Volkswagen 3.0</h3>
-                  <a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/">vw.com (archive)</a>
-                <div>
-                </div>
-              </div>
-              <div class="media">
-                <img src="/browsershots/vw.png" />
-              </div>
-            </article> -->
-
-            <!--
             <article class="project">
-              <div class="desc">
-                <h3>Breezeline - Marketing Website</h3>
-                <a href="#">breezeline.com</a>
-                <div>
-                  <p>Formerly known as Atlantic Broadband, Breezeline is one of the largest providers of internet, TV, and phone services to the East Coast.</p>
-                  <p>Imarc hired me as part of a dedicated team to build the front-end of their marketing website.</p>
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>Breezeline</h3>
+                  <a href="https://breezeline.com" target="_blank">breezeline.com</a>
+                  <div class="project__desc">
+                    <p>Imarc's biggest client, Breezeline is also one of the largest ISP provider in the East Coast. I was hired as part of a dedicated team to build and maintain Breezeline's marketing website.</p>
+                    <p>Built with <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. <b class="term">REST APIs</b> were used to fetch location-based pricing data, while <b class="term">CraftCMS</b> serves the marketing content.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="https://breezeline.com" target="_blank" class="button button-primary">Visit</a>
                 </div>
               </div>
-              <div class="media">
+              <div class="project__media">
                 <img src="/browsershots/breezeline.png" />
               </div>
             </article>
 
             <article class="project">
-              <div class="desc">
-                <h3>Breezeline - Account Portal</h3>
-                <a href="#">myaccount.breezeline.com</a>
-                <div>
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>My Account</h3>
+                  <a href="https://myaccount.breezeline.com" target="_blank">myaccount.breezeline.com</a>
+                  <div class="project__desc">
+                    <p>Breezeline's dedicated user account portal for managing bill payments, service upgrades, hardware reboot, user profile, etc.</p>
+                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. Authentication and fetching of user data were handled by <b class="term">KeyCloak</b> and <b class="term">GraphQL</b>.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="https://myaccount.breezeline.com" target="_blank" class="button button-primary">Visit</a>
                 </div>
               </div>
-              <div class="media">
+              <div class="project__media">
                 <img src="/browsershots/myaccount.png" />
               </div>
             </article>
 
             <article class="project">
-              <div class="desc">
-                <h3>eRegulations</h3>
-                <a href="#">eregulations.com</a>
-                <div>
-                  <p>Formerly known as Atlantic Broadband, Breezeline is one of the largest providers of internet, TV, and phone services to the East Coast.</p>
-                  <p>Imarc hired me as part of a dedicated team to build the front-end of their marketing website.</p>
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>eRegulations</h3>
+                  <a href="https://eregulations.com" target="_blank">eregulations.com</a>
+                  <div class="project__desc">
+                    <p>Official hunting and fishing rules, regulations, license, permit information, season dates and limits for all 50 US states.</p>
+                    <p>Built the front-end using <b class="term">Twig</b>, <b class="term">Sass</b>, <b class="term">jQuery</b>, and <b class="term">CraftCMS</b>.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="https://eregulations.com" target="_blank" class="button button-primary">Visit</a>
                 </div>
               </div>
-              <div class="media">
+              <div class="project__media">
                 <img src="/browsershots/eregulations.png" />
               </div>
             </article>
 
+            <article class="project">
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>Volkswagen USA</h3>
+                  <span><a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/" target="_blank">vw.com</a> (archive)</span>
+                  <div class="project__desc">
+                    <p>Deutsch LA's biggest client, Volkswagen USA, had a major launch in 2013: the redesign of their marketing website.</p>
+                    <p>Worked with a team of 20+ people to build this website using <b class="term">jQuery</b>, <b class="term">Bootstrap</b>, <b class="term">LESS</b>, <b class="term">Underscore</b> and <b class="term">Backbone</b>, on top of an enterprise-level Content Management System, <b class="term">Adobe Experience Manager</b>.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/" target="_blank" class="button button-primary">Visit (archive)</a>
+                </div>
+              </div>
+              <div class="project__media">
+                <img src="/browsershots/vw.png" />
+              </div>
+            </article>
+
+            <!--
             <article class="project">
               <div class="desc">
                 <h3>Digital Automotive Brochures</h3>
@@ -302,7 +321,7 @@
         </div>
       </section>
 
-      <section id="open-source" class="bg-burnt-sienna px-6 sm:px-0 py-12">
+      <section id="oss" class="bg-burnt-sienna px-6 sm:px-0 py-12">
         <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
           <h2 class="heading mb-6">
             <span class="text-charcoal">Open</span>
@@ -334,7 +353,7 @@
         </div>
       </section>
 
-      <section id="contact-me" class="bg-black px-6 sm:px-0 py-12">
+      <section id="contact" class="bg-black px-6 sm:px-0 py-12">
         <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center">
           <h2 class="heading mb-6">
             <span class="text-white">Get In</span>

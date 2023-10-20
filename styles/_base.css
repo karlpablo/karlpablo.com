@@ -8,11 +8,15 @@
   }
 
   a {
-    @apply underline;
+    @apply inline-block underline;
   }
 
   b.term {
     @apply text-burnt-sienna;
+  }
+
+  h3 {
+    @apply font-bold text-lg md:text-xl;
   }
 
   .bg-code {
