@@ -25,9 +25,12 @@
         <a href="#contact" class="button button-primary">Contact Me</a>
       </nav>
       <div class="h-full relative z-40 container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-12 sm:p-6">
-        <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
-          <h1 class="text-persian-green">Karl Pablo</h1>
-          <strong class="text-black">Front-end Web Engineer</strong>
+        <div class="flex flex-row items-center gap-6">
+          <img class="w-24 h-24" src="/disapprove.png" />
+          <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
+            <h1 class="text-persian-green">Karl Pablo</h1>
+            <strong class="text-black">Front-end Web Engineer</strong>
+          </div>
         </div>
         <p class="text-black text-lg sm:text-xl md:text-2xl">
           <span class="font-bold">Over 13 years of building delightful user interfaces and websites for top brands.</span>
@@ -78,7 +81,7 @@
             </article>
 
             <!-- imarc -->
-            <article class="work md:col-[ls/le] md:row-[2/5]">
+            <article id="imarc" class="work md:col-[ls/le] md:row-[2/5]">
               <div class="work-banner">2020 - 2023</div>
               <div class="work-header">
                 <a href="#">
@@ -97,7 +100,7 @@
             </article>
 
             <!-- spinifex -->
-            <article class="work md:col-[rs/re] md:row-[6/9]">
+            <article id="spinifex-group" class="work md:col-[rs/re] md:row-[6/9]">
               <div class="work-banner">2016 - 2019</div>
               <div class="work-header">
                 <a href="#">
@@ -115,7 +118,7 @@
             </article>
 
             <!-- deutsch -->
-            <article class="work md:col-[ls/le] md:row-[9/12]">
+            <article id="deutsch-la" class="work md:col-[ls/le] md:row-[9/12]">
               <div class="work-banner">2013 - 2016</div>
               <div class="work-header">
                 <a href="#">
@@ -177,8 +180,8 @@
             <article class="project">
               <div class="project__copy">
                 <div class="project__info">
-                  <h3>LeaseAhoy!</h3>
-                  <a href="https://leaseahoy.com" target="_blank">leaseahoy.com</a>
+                  <h3><a href="https://leaseahoy.com" target="_blank">LeaseAhoy!</a></h3>
+                  <span class="tag">Personal Project</span>
                   <div class="project__desc">
                     <p>A data aggregation and comparison website for vehicle lease rates. Helps people avoid getting overcharged at dealerships.</p>
                     <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">React</b>, <b class="term">Tailwind</b>, and <b class="term">PostgreSQL</b>. Hosted on <b class="term">Netlify</b> and makes use of <b class="term">Serverless Functions</b>.</p>
@@ -197,10 +200,10 @@
             <article class="project">
               <div class="project__copy">
                 <div class="project__info">
-                  <h3>Breezeline</h3>
-                  <a href="https://breezeline.com" target="_blank">breezeline.com</a>
+                  <h3><a href="https://breezeline.com" target="_blank">Breezeline</a></h3>
+                  <a href="#imarc" class="tag">Client Project @ Imarc</a>
                   <div class="project__desc">
-                    <p>Imarc's biggest client, Breezeline is also one of the largest ISP provider in the East Coast. I was hired as part of a dedicated team to build and maintain Breezeline's marketing website.</p>
+                    <p>Breezeline is one of the largest ISP providers in the East Coast. I worked as part of a dedicated team at Imarc to build and maintain Breezeline's marketing website.</p>
                     <p>Built with <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. <b class="term">REST APIs</b> were used to fetch location-based pricing data, while <b class="term">CraftCMS</b> serves the marketing content.</p>
                   </div>
                 </div>
@@ -216,11 +219,11 @@
             <article class="project">
               <div class="project__copy">
                 <div class="project__info">
-                  <h3>My Account</h3>
-                  <a href="https://myaccount.breezeline.com" target="_blank">myaccount.breezeline.com</a>
+                  <h3><a href="https://myaccount.breezeline.com" target="_blank">Breezeline - My Account</a></h3>
+                  <a href="#imarc" class="tag">Client Project @ Imarc</a>
                   <div class="project__desc">
-                    <p>Breezeline's dedicated user account portal for managing bill payments, service upgrades, hardware reboot, user profile, etc.</p>
-                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. Authentication and fetching of user data were handled by <b class="term">KeyCloak</b> and <b class="term">GraphQL</b>.</p>
+                    <p>Breezeline's dedicated user account portal for managing bill payments, service upgrades, etc.</p>
+                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. Authenticated users via <b class="term">KeyCloak</b> and fetched data using <b class="term">GraphQL</b>.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -235,8 +238,8 @@
             <article class="project">
               <div class="project__copy">
                 <div class="project__info">
-                  <h3>eRegulations</h3>
-                  <a href="https://eregulations.com" target="_blank">eregulations.com</a>
+                  <h3><a href="https://eregulations.com" target="_blank">eRegulations</a></h3>
+                  <a href="#imarc" class="tag">Client Project @ Imarc</a>
                   <div class="project__desc">
                     <p>Official hunting and fishing rules, regulations, license, permit information, season dates and limits for all 50 US states.</p>
                     <p>Built the front-end using <b class="term">Twig</b>, <b class="term">Sass</b>, <b class="term">jQuery</b>, and <b class="term">CraftCMS</b>.</p>
@@ -254,11 +257,11 @@
             <article class="project">
               <div class="project__copy">
                 <div class="project__info">
-                  <h3>Volkswagen USA</h3>
-                  <span><a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/" target="_blank">vw.com</a> (archive)</span>
+                  <h3><a href="https://web.archive.org/web/20150329053102/http://www.vw.com/models/beetle-convertible/" target="_blank">Volkswagen USA</a></h3>
+                  <a href="#deutsch-la" class="tag">Client Project @ Deutsch LA</a>
                   <div class="project__desc">
-                    <p>Deutsch LA's biggest client, Volkswagen USA, had a major launch in 2013: the redesign of their marketing website.</p>
-                    <p>Worked with a team of 20+ people to build this website using <b class="term">jQuery</b>, <b class="term">Bootstrap</b>, <b class="term">LESS</b>, <b class="term">Underscore</b> and <b class="term">Backbone</b>, on top of an enterprise-level Content Management System, <b class="term">Adobe Experience Manager</b>.</p>
+                    <p>Volkswagen USA's marketing website redesign back in 2013.</p>
+                    <p>With a team of 20+ people, we built the site using <b class="term">jQuery</b>, <b class="term">Bootstrap</b>, <b class="term">LESS</b>, <b class="term">Underscore</b> and <b class="term">Backbone</b>, on top of an enterprise-level CMS, <b class="term">Adobe Experience Manager</b>.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -267,6 +270,65 @@
               </div>
               <div class="project__media">
                 <img src="/browsershots/vw.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>Mazda & Lexus Kiosk Apps</h3>
+                  <a href="#spinifex-group" class="tag">Client Project @ Spinifex Group</a>
+                  <div class="project__desc">
+                    <p>Built with <b class="term">Electron</b> + <b class="term">Vue</b> and deployed on touchscreen devices, these interactive apps were displayed at automaker booths during regional auto shows.</p>
+                  </div>
+                  <ul class="ml-4 mt-2 list-disc">
+                    <li>Mazda Wheelstand</li>
+                    <li>Mazda Color Configurator</li>
+                    <li>Mazda Info Hub</li>
+                    <li>Lexus Wheelstand</li>
+                  </ul>
+                </div>
+                <div class="project__links">
+                  <a href="https://www.youtube.com/playlist?list=PLsTQz8X7L4O2JncbdWoed_qjitV36fSPt" target="_blank" class="button button-primary">View Playlist</a>
+                </div>
+              </div>
+              <div class="project__media">
+                <img src="/browsershots/lexus.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>Cisco Social Media Wall</h3>
+                  <div class="project__desc">
+                    <p>Displayed on 50-foot screen.</p>
+                    <p>Built on Electron.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="#" target="_blank" class="button button-primary">Demo</a>
+                </div>
+              </div>
+              <div class="project__media">
+                <img src="/browsershots/cisco.png" />
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project__copy">
+                <div class="project__info">
+                  <h3>IBM AI Dashboard</h3>
+                  <div class="project__desc">
+                    <p>Built on Electron.</p>
+                  </div>
+                </div>
+                <div class="project__links">
+                  <a href="#" target="_blank" class="button button-primary">Demo</a>
+                </div>
+              </div>
+              <div class="project__media">
+                <img src="/browsershots/ibm.png" />
               </div>
             </article>
 

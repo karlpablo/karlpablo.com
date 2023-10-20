@@ -19,6 +19,10 @@
     @apply font-bold text-lg md:text-xl;
   }
 
+  img {
+    @apply inline-block;
+  }
+
   .bg-code {
     background: url('/code.png') 0% 0% no-repeat;
     background-size: 16em;
@@ -43,5 +47,9 @@
 
   .heading span:first-child {
     @apply transform -translate-x-1/4;
+  }
+
+  .tag {
+    @apply inline-block bg-gray-400 hover:bg-gray-500 font-mono text-white text-sm px-3 py-1 rounded-xl no-underline cursor-pointer;
   }
 }

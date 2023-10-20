@@ -1,7 +1,6 @@
 @layer components {
   .project {
-    @apply relative bg-white border-2 border-black text-black flex flex-row h-[425px] overflow-hidden;
-    @apply transition-all hover:scale-105;
+    @apply relative bg-white border-2 border-black text-black flex flex-row h-[425px] overflow-hidden transition-all hover:scale-105;
     box-shadow: 6px 6px 0px #000;
   }
 
@@ -11,15 +10,36 @@
 
   .project__info {}
 
+  .project__info h3 {
+  }
+
+  .project__info h3 + .tag {
+    @apply mt-2;
+  }
+
   .project__desc {
     @apply mt-4 space-y-4;
   }
 
   .project__media {
-    @apply w-2/3 grayscale transition-all;
+    @apply relative w-2/3 grayscale transition-all;
+  }
+
+  .project__media img {
+    @apply absolute right-0 bottom-0;
   }
 
   .project:hover .project__media {
     @apply grayscale-0;
+  }
+
+  .project__sash {
+    @apply absolute top-0 right-0 p-2;
+    @apply bg-white text-sm no-underline border-l-2 border-b-2 border-black;
+    @apply rounded-bl-xl;
+  }
+
+  .project__sash img {
+    @apply w-8 h-8;
   }
 }
