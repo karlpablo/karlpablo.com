@@ -52,4 +52,8 @@
   .tag {
     @apply inline-block bg-saffron hover:contrast-125 font-mono text-white text-sm px-3 py-1 rounded-xl no-underline cursor-pointer;
   }
+
+  .icon {
+    @apply inline-block h-4 -mt-1 mx-1;
+  }
 }

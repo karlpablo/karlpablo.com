@@ -1,14 +1,10 @@
 @layer components {
   .button {
     @apply px-4 py-2 rounded transition-all transform;
-    @apply bg-black text-white font-mono font-bold text-xl no-underline;
-  }
-
-  .button-default {
-    @apply bg-black hover:bg-gray-700 text-white;
+    @apply bg-black hover:bg-gray-700 text-white font-mono font-bold text-xl no-underline;
   }
 
   .button-primary {
-    @apply bg-burnt-sienna hover:contrast-125;
+    @apply bg-burnt-sienna hover:bg-burnt-sienna hover:contrast-125;
   }
 }

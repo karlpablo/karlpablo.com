@@ -25,21 +25,15 @@
     @apply relative w-2/3 grayscale transition-all;
   }
 
-  .project__media img {
-    @apply absolute right-0 bottom-0;
-  }
-
   .project:hover .project__media {
     @apply grayscale-0;
   }
 
-  .project__sash {
-    @apply absolute top-0 right-0 p-2;
-    @apply bg-white text-sm no-underline border-l-2 border-b-2 border-black;
-    @apply rounded-bl-xl;
+  .project__links {
+    @apply flex flex-row gap-2;
   }
 
-  .project__sash img {
-    @apply w-8 h-8;
+  .project__media img {
+    @apply absolute right-0 bottom-0 transition-all opacity-100;
   }
 }
