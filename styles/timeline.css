@@ -4,18 +4,17 @@
 
     @media screen(md) {
       grid-template-columns: [ls] 1fr [le] 100px [rs] 1fr [re];
-      grid-template-rows: repeat(18, 110px); /* repeat by number of div.year */
+      grid-template-rows: repeat(19, 110px); /* repeat by number of div.year */
     }
 
     @media screen(lg) {
-      grid-template-rows: repeat(18, 90px); /* repeat by number of div.year */
+      grid-template-rows: repeat(19, 90px); /* repeat by number of div.year */
     }
   }
 
   .timeline .year {
     grid-column: le / rs;
-    place-self: stretch center;
-    @apply relative h-full hidden md:block;
+    @apply justify-self-center relative h-full hidden md:block;
   }
 
   .timeline .year:nth-child(n+2):before {
