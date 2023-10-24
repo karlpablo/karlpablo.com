@@ -30,7 +30,7 @@
   }
 
   .work-body strong {
-    @apply font-normal text-burnt-sienna;
+    @apply font-normal text-blood-red;
   }
 
   .work-body a {
