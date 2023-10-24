@@ -13,14 +13,14 @@
         Yep, this website works even without JavaScript!
       </p>
     </noscript>
-    <header class="h-screen relative">
+    <header class="sm:h-screen relative flex flex-col gap-y-12 p-12 sm:p-6">
       <!-- <a href="https://github.com/karlpablo/portfolio-2024"
          target="_blank" 
          class="code-peel absolute top-0 left-0 w-[30px] h-[30px]">
         <img src="/code-peel.png" />
       </a> -->
 
-      <nav class="absolute w-full sm:w-auto z-50 top-0 right-0 p-6 flex flex-row gap-6 md:gap-12 justify-center items-center text-lg md:text-xl">
+      <nav class="sm:absolute w-full sm:w-auto z-50 top-0 right-0 sm:p-6 flex flex-row gap-6 md:gap-8 justify-center items-center md:text-lg">
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon hidden sm:inline-block">
             <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
@@ -42,8 +42,8 @@
         </a>
       </nav>
 
-      <div class="relative z-30 container h-full mx-auto p-12 sm:p-6 flex flex-col justify-center gap-y-8 md:gap-y-12">
-        <div class="flex flex-col sm:flex-row items-center gap-6">
+      <div class="relative z-30 container h-full mx-auto flex flex-col justify-center gap-y-6 md:gap-y-12">
+        <div class="flex flex-col sm:flex-row items-center gap-4">
           <img class="w-28 h-28" src="/disapprove.png" />
           <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-center sm:text-left">
             <h1 class="text-persian-green">Karl Pablo</h1>
@@ -51,9 +51,9 @@
           </div>
         </div>
         <p class="text-lg sm:text-xl md:text-2xl">
-          <span class="font-bold">Over 13 years of building delightful user interfaces and websites for top brands.</span>
-          Specializes in <b class="term">React</b> and <b class="term">Vue</b>.
-          Highly proficient with <b class="term">Tailwind</b>.
+          <strong>Over 13 years of building delightful user interfaces and websites for top brands.</strong>
+          Specializes in <i>React</i> and <i>Vue</i>.
+          Highly proficient with <i>Tailwind</i>.
         </p>
         <img src="./top-clients.png" class="hidden sm:block grayscale" alt="Top clients include Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
         <img src="./top-clients-stacked.png" class="sm:hidden grayscale" alt="Top clients include Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
@@ -62,8 +62,8 @@
 
     <main>
       <section id="experience" class="bg-charcoal px-6 sm:px-0 py-12 md:pt-20 md:pb-0">
-        <div class="container mx-auto flex flex-col gap-y-6 md:gap-y-8">
-          <h2 class="heading mb-2 md:mb-6">
+        <div class="container mx-auto">
+          <h2 class="heading">
             <span class="text-white">Professional</span>
             <span class="text-persian-green">Experience</span>
           </h2>
@@ -115,7 +115,7 @@
                 </div>
               </div>
               <div class="work-body">
-                <p>Built the marketing websites for <a href="#breezeline">Breezeline</a> and <a href="#eregulations">eRegulations</a> in <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Craft CMS</b>. Led and mentored a team of front-end engineers. Performed pair programming sessions and code reviews. Curated the <b class="term">Storybook</b> component libraries.</p>
+                <p>Built the marketing websites for <a href="#breezeline">Breezeline</a> and <a href="#eregulations">eRegulations</a> in <i>Vue</i>, <i>Tailwind</i>, and <i>Craft CMS</i>. Led and mentored a team of front-end engineers. Performed pair programming sessions and code reviews. Curated the <i>Storybook</i> component libraries.</p>
                 <p class="work-achievement">Significantly reduced meetings between Creative and Engineering teams (est. 50%) by establishing more efficient ways to collaborate through design systems, component libraries, and visual regression tests.</p>
                 <p class="work-achievement">Devised a smart solution for a project which had component-loading issues, saving the company an estimated $100,000 in development costs.</p>
               </div>
@@ -134,7 +134,7 @@
                 </div>
               </div>
               <div class="work-body">
-                <p>Built touchscreen <b class="term">Electron</b> + <b class="term">Vue</b> apps for top clients (<a href="#ibm">IBM</a>, <a href="#cisco">Cisco</a>, <a href="#kiosk-apps">Mazda</a>, <a href="#kiosk-apps">Lexus</a>, and <a href="#kiosk-apps">Honda</a>) which were displayed at tech conventions and regional auto shows.</p>
+                <p>Built touchscreen <i>Electron</i> + <i>Vue</i> apps for top clients (<a href="#ibm">IBM</a>, <a href="#cisco">Cisco</a>, <a href="#kiosk-apps">Mazda</a>, <a href="#kiosk-apps">Lexus</a>, and <a href="#kiosk-apps">Honda</a>) which were displayed at tech conventions and regional auto shows.</p>
                 <p class="work-achievement">Introduced app deployment strategies which reduced operational and maintenance costs by a staggering 90%.</p>
               </div>
             </article>
@@ -152,7 +152,7 @@
                 </div>
               </div>
               <div class="work-body">
-                <p>Built <a href="#vw">Volkswagen USA</a>'s marketing website using <b class="term">jQuery</b>, <b class="term">Bootstrap</b>, and <b class="term">AEM</b> as part of a 10-person engineering team.</p>
+                <p>Built <a href="#vw">Volkswagen USA</a>'s marketing website using <i>jQuery</i>, <i>Bootstrap</i>, and <i>AEM</i> as part of a 10-person engineering team.</p>
                 <p class="work-achievement">Drove a mobile-first, responsive approach to frontend development vs. building a separate website for mobile devices, saving the company an estimated $150,000.</p>
               </div>
             </article>
@@ -171,7 +171,7 @@
               </div>
               <div class="work-body">
                 <p>Managed the company's e-commerce website and curated its database of more than 2 million items.</p>
-                <p class="work-achievement">Created web scraping scripts in <b class="term">Python</b> to supplement product information, increasing presence in search engines and ensuring first-page placements in search results.</p>
+                <p class="work-achievement">Created web scraping scripts in <i>Python</i> to supplement product information, increasing presence in search engines and ensuring first-page placements in search results.</p>
               </div>
             </article>
 
@@ -205,7 +205,7 @@
                   <h3>LeaseAhoy!</h3>
                   <div class="project__desc">
                     <p>As a freelancer, I built a data aggregation and comparison website for vehicle lease rates to help people avoid getting overcharged at dealerships.</p>
-                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">React</b>, <b class="term">Tailwind</b>, <b class="term">DaisyUI</b> with contents stored in <b class="term">PostgreSQL</b>. Hosted on <b class="term">Netlify</b> and makes use of <b class="term">Serverless Functions</b> to securely fetch data.</p>
+                    <p>Built as a <i>Single-Page Application</i> using <i>React</i>, <i>Tailwind</i>, <i>DaisyUI</i> with contents stored in <i>PostgreSQL</i>. Hosted on <i>Netlify</i> and makes use of <i>Serverless Functions</i> to securely fetch data.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -227,7 +227,7 @@
                   <h3>Breezeline - Marketing Website</h3>
                   <div class="project__desc">
                     <p><a href="#imarc">Imarc</a>'s biggest client, Breezeline, is also one of the largest internet, TV, and phone providers in the US East Coast. I worked as part of a team to build and maintain their marketing website.</p>
-                    <p>Built on <b class="term">CraftCMS</b> using <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. A dedicated <b class="term">REST API</b> server exposes endpoints for fetching location-based pricing data and for processing new orders.</p>
+                    <p>Built on <i>CraftCMS</i> using <i>Vue</i>, <i>Tailwind</i>, and <i>Sass</i>. A dedicated <i>REST API</i> server exposes endpoints for fetching location-based pricing data and for processing new orders.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -249,7 +249,7 @@
                   <h3>Breezeline - My Account</h3>
                   <div class="project__desc">
                     <p>At <a href="#imarc">Imarc</a>, I was tasked to build the front-end of Breezeline's fully-responsive, customer account portal, to be used for managing bill payments, service upgrades, etc.</p>
-                    <p>Built as a <b class="term">Single-Page Application</b> using <b class="term">Vue</b>, <b class="term">Tailwind</b>, and <b class="term">Sass</b>. Authentication is handled via <b class="term">KeyCloak</b> while data is fetched using the <b class="term">GraphQL</b> protocol.</p>
+                    <p>Built as a <i>Single-Page Application</i> using <i>Vue</i>, <i>Tailwind</i>, and <i>Sass</i>. Authentication is handled via <i>KeyCloak</i> while data is fetched using the <i>GraphQL</i> protocol.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -271,7 +271,7 @@
                   <h3>eRegulations</h3>
                   <div class="project__desc">
                     <p>At <a href="#imarc">Imarc</a>, I was tasked to build the front-end of eRegulations.com, the major website for looking up official hunting and fishing rules, regulations, license, permit information, season dates and limits for all 50 states.</p>
-                    <p>Built on <b class="term">CraftCMS</b> with the front-end on <b class="term">Twig</b>, <b class="term">jQuery</b>, <b class="term">Sass</b>, <b class="term">Modernizr</b>, and a custom grid system.</p>
+                    <p>Built on <i>CraftCMS</i> with the front-end on <i>Twig</i>, <i>jQuery</i>, <i>Sass</i>, <i>Modernizr</i>, and a custom grid system.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -291,7 +291,7 @@
                 <div class="project__info">
                   <h3>Kiosk Apps / Digital Brochures</h3>
                   <div class="project__desc">
-                    <p>At <a href="#spinifexgroup">Spinifex Group</a>, I was tasked to build these interactive, touchscreen kiosk apps on <b class="term">Electron</b> and <b class="term">Vue</b>. They were deployed on tablet devices, which were displayed during regional auto shows and tech conventions.</p>
+                    <p>At <a href="#spinifexgroup">Spinifex Group</a>, I was tasked to build these interactive, touchscreen kiosk apps on <i>Electron</i> and <i>Vue</i>. They were deployed on tablet devices, which were displayed during regional auto shows and tech conventions.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -316,7 +316,7 @@
                   <h3>Cisco Social Media Wall</h3>
                   <div class="project__desc">
                     <p>At <a href="#spinifexgroup">Spinifex Group</a>, I was tasked to create a "social media wall", a visual mosaic of live, curated social media posts from Twitter, Facebook, etc. It was displayed on a 50-feet projector screen during Cisco's tech conference.</p>
-                    <p>Built with <b class="term"><a href="https://vanilla-js.com/" target="_blank" rel="noreferrer">Vanilla.js</a></b> and fetches data using simple <b class="term">REST API</b> endpoints from a dedicated server.</p>
+                    <p>Built with <i><a href="https://vanilla-js.com/" target="_blank" rel="noreferrer">Vanilla.js</a></i> and fetches data using simple <i>REST API</i> endpoints from a dedicated server.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -338,7 +338,7 @@
                   <h3>IBM - Watson AI Dashboard</h3>
                   <div class="project__desc">
                     <p>At <a href="#spinifexgroup">Spinifex Group</a>, I was tasked to create a visualization dashboard for demonstrating the possible capabilities of Watson, IBM's Artificial Intelligence product.</p>
-                    <p>Built using <b class="term">Vue</b>, <b class="term">Chart.js</b>, and <b class="term">Sass</b> in an <b class="term">Electron</b> shell.</p>
+                    <p>Built using <i>Vue</i>, <i>Chart.js</i>, and <i>Sass</i> in an <i>Electron</i> shell.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -359,7 +359,7 @@
                   <h3>Volkswagen USA</h3>
                   <div class="project__desc">
                     <p><a href="#deutschla">Deutsch LA</a>'s biggest client, Volkswagen, tasked us to build their marketing website, which includes a unique search feature called "Find a Match".</p>
-                    <p>With a team of 20+ people, we built the site using <b class="term">jQuery</b>, <b class="term">Bootstrap</b>, <b class="term">LESS</b>, <b class="term">Underscore</b> and <b class="term">Backbone</b>, on top of an enterprise-level CMS, <b class="term">Adobe Experience Manager</b>.</p>
+                    <p>With a team of 20+ people, we built the site using <i>jQuery</i>, <i>Bootstrap</i>, <i>LESS</i>, <i>Underscore</i> and <i>Backbone</i>, on top of an enterprise-level CMS, <i>Adobe Experience Manager</i>.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -381,7 +381,7 @@
                   <h3>Student Management System</h3>
                   <div class="project__desc">
                     <p>As a freelancer, I built an internal web app for a K-12 school client, TGSMCI. This system is being used to manage student enrollments, payments, and account balances. It can generate financial reports and also log student entry and exit times using ID cards embedded with NFC tags.</p>
-                    <p>Built with <b class="term">Bulma</b> and <b class="term">Sass</b> on a <b class="term">Django</b> instance, with a <b class="term">MySQL</b> database for data storage.</p>
+                    <p>Built with <i>Bulma</i> and <i>Sass</i> on a <i>Django</i> instance, with a <i>MySQL</i> database for data storage.</p>
                   </div>
                 </div>
                 <div class="project__links">
@@ -399,7 +399,7 @@
                   <h3>Customer Management System</h3>
                   <div class="project__desc">
                     <p>As a freelancer, I built an internal web app for an automotive shop client, ACG. This system is being used to manage customer and vehicle information, log invoices, work orders, parts and labor. It can also generate financial reports.</p>
-                    <p>Built with <b class="term">Bulma</b> and <b class="term">Sass</b> on a <b class="term">Django</b> instance, with a <b class="term">MySQL</b> database for data storage.</p>
+                    <p>Built with <i>Bulma</i> and <i>Sass</i> on a <i>Django</i> instance, with a <i>MySQL</i> database for data storage.</p>
                   </div>
                 </div>
                 <div class="project__links">
