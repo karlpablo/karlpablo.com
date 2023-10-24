@@ -14,8 +14,12 @@
     @apply inline-block;
   }
 
-  i {
+  i { /* terms */
     @apply text-burnt-sienna font-bold not-italic;
+  }
+
+  svg { /* icons */
+    @apply inline-block h-6 w-6 -mt-1 mx-1;
   }
 
   h2 {
@@ -42,7 +46,22 @@
     @apply pb-12;
   }
 
-  .shadow-white {
+  .hard-shadow {
+    box-shadow: 6px 6px 0px #000;
+  }
+
+  .hard-shadow-white {
     box-shadow: 6px 6px 0px #fff;
   }
+
+  /* Fancy scale-on-hover effect -- disable for now */
+  /*
+  .work {
+    @apply hover:scale-105;
+  }
+
+  .project {
+    @apply hover:scale-105 grayscale hover:grayscale-0;
+  }
+  */
 }

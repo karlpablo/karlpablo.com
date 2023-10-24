@@ -1,5 +1,0 @@
-@layer components {
-  .icon {
-    @apply inline-block h-6 w-6 -mt-1 mx-1;
-  }
-}
