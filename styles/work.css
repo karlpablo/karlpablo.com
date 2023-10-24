@@ -11,7 +11,7 @@
 
   .work-banner {
     @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
-    @apply font-light bg-saffron text-black border-2 border-black text-sm font-mono rounded px-4 py-1;
+    @apply font-light bg-saffron text-black border-2 border-black font-mono px-3 py-1 whitespace-nowrap;
   }
 
   .work-header {

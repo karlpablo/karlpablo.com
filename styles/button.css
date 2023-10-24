@@ -1,6 +1,6 @@
 @layer components {
   .button {
-    @apply px-2 sm:px-4 py-1 sm:py-2 rounded transition-all transform;
+    @apply px-3 sm:px-4 py-2 rounded-lg transition-all transform;
     @apply bg-black hover:bg-gray-700 text-white font-mono font-bold md:text-lg no-underline;
   }
 

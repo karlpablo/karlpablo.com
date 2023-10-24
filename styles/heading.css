@@ -1,0 +1,13 @@
+@layer components {
+  .heading {
+    @apply relative flex flex-col w-1/2 mx-auto text-3xl md:text-4xl lg:text-5xl font-bold text-center tracking-tight;
+  }
+
+  .heading span {
+    @apply relative left-[12.5%];
+  }
+
+  .heading span:first-child {
+    @apply transform -translate-x-1/4;
+  }
+}
