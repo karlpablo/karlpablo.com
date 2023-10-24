@@ -13,12 +13,12 @@
       </p>
     </noscript>
     <header class="h-screen relative">
-      <a href="https://github.com/karlpablo/portfolio-2024"
+      <!-- <a href="https://github.com/karlpablo/portfolio-2024"
          target="_blank" 
          class="code-peel absolute top-0 left-0 w-[30px] h-[30px]">
         <img src="/code-peel.png" />
-      </a>
-      <nav class="absolute z-50 top-0 right-0 p-6 flex flex-row gap-x-12 items-center text-xl">
+      </a> -->
+      <nav class="absolute z-50 top-0 right-0 p-6 hidden sm:flex flex-row gap-4 md:gap-12 items-center text-lg md:text-xl">
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
             <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
@@ -34,16 +34,16 @@
         </span>
         <!-- <a href="#oss">OSS</a> -->
         <a href="#contact" class="button button-primary">
-          Say hello!
+          <span>Say hello!</span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
             <path fill-rule="evenodd" d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clip-rule="evenodd" />
           </svg>
         </a>
       </nav>
       <div class="h-full relative z-40 container mx-auto flex flex-col gap-y-6 md:gap-y-8 justify-center p-12 sm:p-6">
-        <div class="flex flex-row items-center gap-6">
+        <div class="flex flex-col sm:flex-row items-center gap-6">
           <img class="w-28 h-28" src="/disapprove.png" />
-          <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
+          <div class="relative text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-center sm:text-left">
             <h1 class="text-persian-green">Karl Pablo</h1>
             <strong class="text-black">Front-end Web Engineer</strong>
           </div>
@@ -303,7 +303,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="project__media">
+              <div class="project__media project__media--full">
                 <img src="/browsershots/lexus.png" />
               </div>
             </article>
@@ -325,7 +325,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="project__media">
+              <div class="project__media project__media--full">
                 <img src="/browsershots/cisco.png" />
               </div>
             </article>
@@ -346,7 +346,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="project__media">
+              <div class="project__media project__media--full">
                 <img src="/browsershots/ibm.png" />
               </div>
             </article>
@@ -444,15 +444,15 @@
         </div>
       </section> -->
 
-      <section id="contact" class="bg-black text-white h-screen px-6 sm:px-0 py-12">
-        <div class="h-full container mx-auto flex flex-col justify-center">
+      <section id="contact" class="bg-black text-white px-6 sm:px-0 py-12">
+        <div class="container mx-auto flex flex-col justify-center">
           <h2 class="heading mb-6">
             <span class="text-white">Get In</span>
             <span class="text-persian-green">Touch</span>
           </h2>
           <div class="h-full flex flex-col justify-center items-center gap-12">
-            <div class="text-5xl font-light">Connect with me via...</div>
-            <div class="w-full bg-charcoal text-white text-xl flex flex-row justify-center gap-12 p-6">
+            <!-- <div class="text-5xl font-light">Connect with me via...</div> -->
+            <div class="w-full text-xl flex flex-col sm:flex-row justify-center gap-4 sm:gap-12 p-6">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
@@ -478,6 +478,7 @@
                 <a href="https://www.linkedin.com/in/karlpablo/" target="_blank">linkedin</a>
               </span>
             </div>
+            <!--
             <div class="text-5xl font-light">...or just fill out this form below.</div>
             <div class="bg-charcoal text-black h-48 w-full">
               <form name="contact" method="POST" data-netlify="true">
@@ -496,6 +497,7 @@
               </form>
             </div>
             <div class="text-5xl font-light">Thank you!</div>
+            -->
           </div>
         </div>
       </section>

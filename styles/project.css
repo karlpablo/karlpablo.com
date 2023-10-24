@@ -1,12 +1,12 @@
 @layer components {
   .project {
-    @apply relative bg-white border-2 border-black text-black flex flex-row h-[400px] overflow-hidden transition-all;
+    @apply relative bg-white border-2 border-black text-black flex flex-col-reverse md:flex-row md:h-[400px] overflow-hidden transition-all;
 /*    @apply hover:scale-105 grayscale hover:grayscale-0;*/
     box-shadow: 6px 6px 0px #000;
   }
 
   .project__copy {
-    @apply w-2/5 p-6 flex flex-col justify-between gap-4;
+    @apply w-full md:w-2/5 p-6 flex flex-col justify-between gap-4 border-t-2 border-black md:border-0 bg-gray-100;
   }
 
   .project__info {}
@@ -23,7 +23,11 @@
   }
 
   .project__media {
-    @apply relative w-3/5  transition-all;
+    @apply relative w-full md:w-3/5  transition-all;
+  }
+
+  .project__media--full {
+    @apply pl-2 pt-1;
   }
 
   .project__links {
@@ -31,6 +35,6 @@
   }
 
   .project__media img {
-    @apply absolute right-0 bottom-0 transition-all opacity-100;
+    @apply md:absolute right-0 bottom-0 transition-all opacity-100;
   }
 }
