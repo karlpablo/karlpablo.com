@@ -444,14 +444,15 @@
         </div>
       </section> -->
 
-      <section id="contact" class="bg-black h-screen px-6 sm:px-0 py-12">
+      <section id="contact" class="bg-black text-white h-screen px-6 sm:px-0 py-12">
         <div class="h-full container mx-auto flex flex-col justify-center">
           <h2 class="heading mb-6">
             <span class="text-white">Get In</span>
             <span class="text-persian-green">Touch</span>
           </h2>
-          <div class="h-full flex flex-col justify-center items-center">
-            <div class="text-xl text-white flex flex-row gap-12">
+          <div class="h-full flex flex-col justify-center items-center gap-12">
+            <div class="text-5xl font-light">Connect with me via...</div>
+            <div class="w-full bg-charcoal text-white text-xl flex flex-row justify-center gap-12 p-6">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
@@ -477,6 +478,24 @@
                 <a href="https://www.linkedin.com/in/karlpablo/" target="_blank">linkedin</a>
               </span>
             </div>
+            <div class="text-5xl font-light">...or just fill out this form below.</div>
+            <div class="bg-charcoal text-black h-48 w-full">
+              <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+            </div>
+            <div class="text-5xl font-light">Thank you!</div>
           </div>
         </div>
       </section>
