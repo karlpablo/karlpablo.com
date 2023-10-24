@@ -11,7 +11,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Jost', ...defaultTheme.fontFamily.sans],
-        mono: ['Play', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         'charcoal': '#264653',
