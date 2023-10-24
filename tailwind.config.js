@@ -19,6 +19,7 @@ export default {
         'saffron': '#E9C46A',
         'sandy-brown': '#F4A261',
         'burnt-sienna': '#E76F51',
+        'sublime': '#262335',
       },
     },
   },
