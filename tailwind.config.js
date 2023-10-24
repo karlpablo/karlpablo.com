@@ -13,12 +13,10 @@ export default {
         sans: ['Jost', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'charcoal': '#264653',
-        'persian-green': '#2A9D8F',
-        'saffron': '#E9C46A',
-        'sandy-brown': '#F4A261',
-        'blood-red': '#774C60',
-        'sublime': '#262335',
+        'primary': '#2A9D8F', // persian-green (teal)
+        'secondary': '#264653', // charcoal (dark gray green)
+        'action': '#774C60', // eggplant (flat purple, for buttons, terms)
+        'accent': '#E9C46A', // saffron (flat yellow)
       },
     },
   },

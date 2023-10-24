@@ -19,10 +19,10 @@
 
   .timeline .year:nth-child(n+2):before {
     content: "";
-    @apply absolute top-0 left-1/2 bg-persian-green h-full w-2 transform -translate-x-1/2 z-10;
+    @apply absolute top-0 left-1/2 bg-primary h-full w-2 transform -translate-x-1/2 z-10;
   }
 
   .timeline .year span {
-    @apply relative z-50 text-white text-xl font-bold bg-persian-green px-4 py-2 rounded-xl;
+    @apply relative z-50 text-white text-xl font-bold bg-primary px-4 py-2 rounded-xl;
   }
 }

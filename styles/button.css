@@ -1,10 +1,6 @@
 @layer components {
   .button {
     @apply px-3 sm:px-4 py-2 rounded-full transition-all transform;
-    @apply bg-black hover:bg-gray-700 text-white md:text-lg no-underline;
-  }
-
-  .button-primary {
-    @apply bg-blood-red hover:bg-blood-red hover:contrast-125;
+    @apply bg-action hover:contrast-125 text-white md:text-lg no-underline;
   }
 }
