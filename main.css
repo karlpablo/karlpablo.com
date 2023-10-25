@@ -8,8 +8,16 @@
     @apply inline-block underline;
   }
 
+  a:not([class]) {
+    @apply hover:text-primary;
+  }
+
   img {
     @apply inline-block;
+  }
+
+  a img {
+    @apply no-underline;
   }
 
   i { /* terms */
@@ -18,6 +26,11 @@
 
   svg { /* icons */
     @apply inline-block h-6 w-6 -mt-1 mx-1;
+  }
+
+  button svg,
+  a svg {
+    @apply mx-0;
   }
 
   h2 {
