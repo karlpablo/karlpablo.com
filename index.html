@@ -379,7 +379,8 @@
         </h2>
         <div class="space-y-12">
           <div class="bg-gray-800 p-6 rounded hard-shadow-white">
-            <form name="ContactForm" method="post" netlify netlify-honeypot="trap">
+            <form name="ContactForm" method="post" netlify netlify-honeypot="itsatrap">
+              <input type="text" name="itsatrap" class="hidden" >
               <div class="grid grid-cols-1 gap-6">
                 <label class="block">
                   <span class="text-white">Your name</span>
@@ -392,10 +393,6 @@
                 <label class="block">
                   <span class="text-white">What can I do for you?</span>
                   <textarea name="message" class="mt-1 block w-full text-black" rows="3" placeholder="I would like to talk to you about a project or an employment opportunity." required></textarea>
-                </label>
-                <label class="block">
-                  <span class="text-white">If you really are human, don't fill out this field below.</span>
-                  <input type="text" name="trap" class="mt-1 block w-full text-black" >
                 </label>
                 <div class="flex flex-row justify-end">
                   <button type="submit" class="button">
