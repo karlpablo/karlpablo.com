@@ -15,7 +15,7 @@ export default {
       colors: {
         'primary': '#2A9D8F', // persian-green (teal)
         'secondary': '#264653', // charcoal (dark gray green)
-        'action': '#774C60', // eggplant (flat purple, for buttons, terms)
+        'action': '#AD343E', // cardinal (flat purple, for buttons, terms)
         'accent': '#E9C46A', // saffron (flat yellow)
       },
     },
