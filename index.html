@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en" class="bg-black">
+
   <head>
     <title>Karl Pablo, Front-end Web Engineer</title>
     <meta charset="UTF-8" />
@@ -15,20 +16,14 @@
     <link rel="icon" type="image/png" href="https://karlpablo.com/disapprove.png" />
     <link href="./main.css" rel="stylesheet">
   </head>
+
   <body class="bg-black">
     <noscript>
-      <p class="p-4 bg-primary text-white text-center">
-        Yep, this website works even without JavaScript! ;)
-      </p>
+      <p class="p-4 bg-primary text-white text-center"> Yep, this website works even without JavaScript! ;) </p>
     </noscript>
     <header class="sm:h-[100svh] relative flex flex-col gap-y-12 px-6 sm:px-12 pt-8 pb-12 bg-white">
-      <a href="https://github.com/karlpablo/portfolio-2024"
-         target="_blank" 
-         class="code-peel absolute top-0 left-0 w-[30px] h-[30px]">
-        <img src="/code-peel.png"
-             width="30"
-             height="30"
-             alt="A small photo of a code snippet which leads to my portfolio's source code in Github." />
+      <a href="https://github.com/karlpablo/portfolio-2024" target="_blank" class="code-peel absolute top-0 left-0 w-[30px] h-[30px]">
+        <img src="/code-peel.png" width="30" height="30" alt="A small photo of a code snippet which leads to my portfolio's source code in Github." />
       </a>
       <nav class="sm:absolute w-full sm:w-auto z-50 top-0 right-0 sm:p-6 flex flex-row gap-6 md:gap-8 justify-center items-center sm:text-lg">
         <span>
@@ -51,7 +46,6 @@
           </svg>
         </a>
       </nav>
-
       <div class="relative z-30 container h-full mx-auto flex flex-col justify-center gap-y-6 md:gap-y-12">
         <div class="flex flex-col sm:flex-row items-center gap-4">
           <img class="w-28 h-28" src="/disapprove.png" alt="An avatar showing a look of disapproval." />
@@ -61,15 +55,11 @@
           </div>
         </div>
         <p class="text-lg sm:text-xl md:text-2xl text-center sm:text-left">
-          <strong>Over 13 years of building delightful user interfaces and websites for top brands.</strong>
-          Specializes in <i>React</i> and <i>Vue</i>.
-          Highly proficient with <i>Tailwind</i>.
-        </p>
+          <strong>Over 13 years of building delightful user interfaces and websites for top brands.</strong> Specializes in <i>React</i> and <i>Vue</i>. Highly proficient with <i>Tailwind</i>. </p>
         <img src="./top-clients.png" class="hidden sm:block grayscale" width="960" height="64" alt="Logos for Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
         <img src="./top-clients-stacked.png" class="sm:hidden grayscale" width="503" height="151" alt="Logos for Breezeline, IBM, Cisco, Mazda, Honda, Lexus, and Volkswagen." />
       </div>
     </header>
-
     <main>
       <section id="experience" class="bg-secondary md:pb-0">
         <div class="container mx-auto">
@@ -78,120 +68,107 @@
             <span class="text-primary">Experience</span>
           </h2>
           <div class="timeline">
-            <div class="year"></div>
-            <div class="year"><span>2023</span></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"><span>2020</span></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"><span>2016</span></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"><span>2012</span></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"></div>
-            <div class="year"><span>2008</span></div>
-            <div class="year"></div>
-            <div class="year"></div>
-
-            <!-- for hire -->
+            <div class="timeline__year"></div>
+            <div class="timeline__year"><span>2023</span></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"><span>2020</span></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"><span>2016</span></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"><span>2012</span></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"><span>2008</span></div>
+            <div class="timeline__year"></div>
+            <div class="timeline__year"></div>
             <article class="work md:col-[rs/re] md:row-[1/2]">
-              <div class="work-banner">Present</div>
-              <div class="work-header">
+              <div class="work__banner">Present</div>
+              <div class="work__header">
                 <div class="w-full flex flex-col gap-4 justify-center">
                   <h3 class="text-center">#opentowork</h3>
                   <a href="#contact" class="button text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z" />
-                    </svg> Hire me!
-                  </a>
+                    </svg> Hire me! </a>
                 </div>
               </div>
             </article>
-
-            <!-- imarc -->
             <article id="imarc" class="work md:col-[ls/le] md:row-[2/5]">
-              <div class="work-banner">2020 - 2023</div>
-              <div class="work-header">
+              <div class="work__banner">2020 - 2023</div>
+              <div class="work__header">
                 <a href="https://imarc.com" target="_blank" rel="noopener noreferrer">
-                  <img class="work-logo" src="/companies/imarc.png" alt="Imarc" />
+                  <img class="work__logo" src="/companies/imarc.png" alt="Imarc" />
                 </a>
                 <div>
                   <h3>Lead Front-end Engineer</h3>
                   <a href="https://imarc.com" target="_blank" rel="noopener noreferrer">Imarc</a>
                 </div>
               </div>
-              <div class="work-body">
+              <div class="work__body">
                 <p>Built the marketing websites for <a href="#breezeline">Breezeline</a> and <a href="#eregulations">eRegulations</a> in <i>Vue</i>, <i>Tailwind</i>, and <i>Craft CMS</i>. Led and mentored a team of front-end engineers. Performed pair programming sessions and code reviews. Curated the <i>Storybook</i> component libraries.</p>
-                <p class="work-achievement">Devised a smart solution for a project which had component-loading issues, saving the company an estimated $100,000 in development costs.</p>
-                <p class="work-achievement">Significantly reduced meetings between Creative and Engineering teams (est. 50%) by establishing more efficient ways to collaborate through design systems, component libraries, and visual regression tests.</p>
+                <p class="work__achievement">Devised a smart solution for a project which had component-loading issues, saving the company an estimated $100,000 in development costs.</p>
+                <p class="work__achievement">Significantly reduced meetings between Creative and Engineering teams (est. 50%) by establishing more efficient ways to collaborate through design systems, component libraries, and visual regression tests.</p>
               </div>
             </article>
-
-            <!-- spinifex -->
             <article id="spinifexgroup" class="work md:col-[rs/re] md:row-[6/9]">
-              <div class="work-banner">2016 - 2019</div>
-              <div class="work-header">
+              <div class="work__banner">2016 - 2019</div>
+              <div class="work__header">
                 <a href="https://spinifexgroup.com" target="_blank" rel="noopener noreferrer">
-                  <img class="work-logo" src="/companies/spinifexgroup.png" alt="Spinifex Group" />
+                  <img class="work__logo" src="/companies/spinifexgroup.png" alt="Spinifex Group" />
                 </a>
                 <div>
                   <h3>Senior Front-end Engineer</h3>
                   <a href="https://spinifexgroup.com" target="_blank" rel="noopener noreferrer">Spinifex Group</a>
                 </div>
               </div>
-              <div class="work-body">
+              <div class="work__body">
                 <p>Built touchscreen <i>Electron</i> + <i>Vue</i> apps for top clients (<a href="#ibm">IBM</a>, <a href="#cisco">Cisco</a>, <a href="#kiosk-apps">Mazda</a>, <a href="#kiosk-apps">Lexus</a>, and <a href="#kiosk-apps">Honda</a>) which were displayed at tech conventions and regional auto shows.</p>
-                <p class="work-achievement">Introduced app deployment strategies which reduced operational and maintenance costs by a staggering 90%.</p>
+                <p class="work__achievement">Introduced app deployment strategies which reduced operational and maintenance costs by a staggering 90%.</p>
               </div>
             </article>
-
-            <!-- deutsch -->
             <article id="deutschla" class="work md:col-[ls/le] md:row-[9/12]">
-              <div class="work-banner">2013 - 2016</div>
-              <div class="work-header">
+              <div class="work__banner">2013 - 2016</div>
+              <div class="work__header">
                 <a href="https://deutschla.com" target="_blank" rel="noopener noreferrer">
-                  <img class="work-logo" src="/companies/deutschla.png" alt="Deutsch LA" />
+                  <img class="work__logo" src="/companies/deutschla.png" alt="Deutsch LA" />
                 </a>
                 <div>
                   <h3>Creative Developer</h3>
                   <a href="https://deutschla.com" target="_blank" rel="noopener noreferrer">Deutsch LA</a>
                 </div>
               </div>
-              <div class="work-body">
+              <div class="work__body">
                 <p>Built <a href="#vw">Volkswagen USA</a>'s marketing website using <i>jQuery</i>, <i>Bootstrap</i>, and <i>AEM</i> as part of a 10-person engineering team.</p>
-                <p class="work-achievement">Drove a mobile-first, responsive approach to frontend development vs. building a separate website for mobile devices, saving the company an estimated $150,000.</p>
+                <p class="work__achievement">Drove a mobile-first, responsive approach to frontend development vs. building a separate website for mobile devices, saving the company an estimated $150,000.</p>
               </div>
             </article>
-
-            <!-- fip -->
             <article id="finditparts" class="work md:col-[rs/re] md:row-[14/16]">
-              <div class="work-banner">2009 - 2011</div>
-              <div class="work-header">
+              <div class="work__banner">2009 - 2011</div>
+              <div class="work__header">
                 <a href="https://finditparts.com" target="_blank" rel="noopener noreferrer">
-                  <img class="work-logo" src="/companies/finditparts.png" alt="FinditParts" />
+                  <img class="work__logo" src="/companies/finditparts.png" alt="FinditParts" />
                 </a>
                 <div>
                   <h3>Web Developer</h3>
                   <a href="https://finditparts.com" target="_blank" rel="noopener noreferrer">FinditParts</a>
                 </div>
               </div>
-              <div class="work-body">
+              <div class="work__body">
                 <p>Managed the company's e-commerce website and curated its database of more than 2 million items.</p>
-                <p class="work-achievement">Created web scraping scripts in <i>Python</i> to supplement product information, increasing presence in search engines and ensuring first-page placements in search results.</p>
+                <p class="work__achievement">Created web scraping scripts in <i>Python</i> to supplement product information, increasing presence in search engines and ensuring first-page placements in search results.</p>
               </div>
             </article>
-
-            <!-- slu -->
             <article id="slu" class="work md:col-[ls/le] md:row-[17/18]">
-              <div class="work-banner">Graduated in 2008</div>
-              <div class="work-header">
+              <div class="work__banner">Graduated in 2008</div>
+              <div class="work__header">
                 <a href="https://www.slu.edu.ph/" target="_blank" rel="noopener noreferrer">
-                  <img class="work-logo" src="/companies/slu.png" alt="Saint Louis University" />
+                  <img class="work__logo" src="/companies/slu.png" alt="Saint Louis University" />
                 </a>
                 <div>
                   <h3>B.S. in Computer Science</h3>
@@ -202,7 +179,6 @@
           </div>
         </div>
       </section>
-
       <section id="projects" class="bg-primary px-6 lg:px-0">
         <div class="container mx-auto">
           <h2>
@@ -229,7 +205,6 @@
                 <img src="/browsershots/leaseahoy.png" alt="Screenshot of leaseahoy.com website" />
               </div>
             </article>
-
             <article id="breezeline" class="project">
               <div class="project__copy">
                 <div>
@@ -249,7 +224,6 @@
                 <img src="/browsershots/breezeline.png" alt="Screenshot of breezeline.com website" />
               </div>
             </article>
-
             <article id="myaccount" class="project">
               <div class="project__copy">
                 <div>
@@ -269,7 +243,6 @@
                 <img src="/browsershots/myaccount.png" alt="Screenshot of Breezeline My Account website" />
               </div>
             </article>
-
             <article id="eregulations" class="project">
               <div class="project__copy">
                 <div>
@@ -288,7 +261,6 @@
                 <img src="/browsershots/eregulations.png" alt="Screenshot of eregulations.com website" />
               </div>
             </article>
-
             <article id="kiosk-apps" class="project">
               <div class="project__copy">
                 <div>
@@ -310,7 +282,6 @@
                 <img src="/browsershots/lexus.webp" alt="Screenshot of Lexus kiosk app" />
               </div>
             </article>
-
             <article id="cisco" class="project">
               <div class="project__copy">
                 <div>
@@ -330,7 +301,6 @@
                 <img src="/browsershots/cisco.webp" alt="Screenshot of Cisco app" />
               </div>
             </article>
-
             <article id="ibm" class="project">
               <div class="project__copy">
                 <div>
@@ -349,7 +319,6 @@
                 <img src="/browsershots/ibm.png" alt="Screenshot of IBM kiosk app" />
               </div>
             </article>
-
             <article id="vw" class="project">
               <div class="project__copy">
                 <div>
@@ -369,7 +338,6 @@
                 <img src="/browsershots/vw.png" alt="Screenshot of Volkswagen website" />
               </div>
             </article>
-
             <article id="tgsmci" class="project">
               <div class="project__copy">
                 <div>
@@ -385,7 +353,6 @@
                 <img src="/browsershots/tgsmci.png" alt="Screenshot of client website" />
               </div>
             </article>
-
             <article id="acg" class="project">
               <div class="project__copy">
                 <div>
@@ -416,8 +383,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
               <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-            </svg> email
-          </a>
+            </svg> email </a>
           <!-- <span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
@@ -427,17 +393,18 @@
           <a href="https://github.com/karlpablo" class="button" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path fill-rule="evenodd" d="M14.447 3.027a.75.75 0 01.527.92l-4.5 16.5a.75.75 0 01-1.448-.394l4.5-16.5a.75.75 0 01.921-.526zM16.72 6.22a.75.75 0 011.06 0l5.25 5.25a.75.75 0 010 1.06l-5.25 5.25a.75.75 0 11-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 010-1.06zm-9.44 0a.75.75 0 010 1.06L2.56 12l4.72 4.72a.75.75 0 11-1.06 1.06L.97 12.53a.75.75 0 010-1.06l5.25-5.25a.75.75 0 011.06 0z" clip-rule="evenodd" />
-            </svg> github
-          </a>
+            </svg> github </a>
           <a href="https://www.linkedin.com/in/karlpablo/" class="button" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z" />
-            </svg> linkedin
-          </a>
+            </svg> linkedin </a>
         </div>
       </div>
     </footer>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap');</style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap');
+    </style>
     <script defer data-domain="karlpablo.com" src="https://plausible.io/js/script.js"></script>
   </body>
+
 </html>

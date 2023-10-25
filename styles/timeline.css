@@ -12,17 +12,17 @@
     }
   }
 
-  .timeline .year {
+  .timeline__year {
     grid-column: le / rs;
     @apply justify-self-center relative h-full hidden md:block;
   }
 
-  .timeline .year:nth-child(n+2):before {
+  .timeline__year:nth-child(n+2):before {
     content: "";
     @apply absolute top-0 left-1/2 bg-primary h-full w-2 transform -translate-x-1/2 z-10;
   }
 
-  .timeline .year span {
+  .timeline__year span {
     @apply relative z-50 text-white text-xl font-bold bg-primary px-4 py-2 rounded-xl;
   }
 }
