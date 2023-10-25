@@ -36,11 +36,11 @@
     @apply font-bold text-lg md:text-xl;
   }
 
-  section {
+  section, footer {
     @apply px-6 py-12 lg:py-20;
   }
 
-  section h2 {
+  section h2, footer h2 {
     @apply pb-12;
   }
 
