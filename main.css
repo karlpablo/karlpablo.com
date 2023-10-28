@@ -65,15 +65,4 @@
   .hard-shadow-white {
     box-shadow: 6px 6px 0px #fff;
   }
-
-  /* Fancy scale-on-hover effect -- disable for now */
-  /*
-  .work {
-    @apply hover:scale-105;
-  }
-
-  .project {
-    @apply hover:scale-105 grayscale hover:grayscale-0;
-  }
-  */
 }
