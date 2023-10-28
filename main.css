@@ -65,4 +65,8 @@
   .hard-shadow-white {
     box-shadow: 6px 6px 0px #fff;
   }
+
+  .disapprove:hover .avatar {
+    @apply -translate-y-8;
+  }
 }
