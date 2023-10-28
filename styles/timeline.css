@@ -4,11 +4,11 @@
 
     @media screen(md) {
       grid-template-columns: [ls] 1fr [le] 100px [rs] 1fr [re];
-      grid-template-rows: repeat(19, 110px); /* repeat by number of div.year */
+      grid-template-rows: repeat(13, 110px); /* repeat by number of div.year */
     }
 
     @media screen(lg) {
-      grid-template-rows: repeat(19, 90px); /* repeat by number of div.year */
+      grid-template-rows: repeat(13, 90px); /* repeat by number of div.year */
     }
   }
 
