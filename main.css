@@ -46,6 +46,10 @@
     @apply transform -translate-x-1/4;
   }
 
+  h2 span:last-child {
+    @apply transform -translate-y-1/4;
+  }
+
   h3 {
     @apply font-bold text-lg md:text-xl;
   }
@@ -55,7 +59,7 @@
   }
 
   section h2, footer h2 {
-    @apply pb-12;
+    @apply pb-8;
   }
 
   .hard-shadow {
