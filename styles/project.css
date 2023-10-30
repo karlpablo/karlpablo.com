@@ -7,7 +7,8 @@
     @apply relative bg-white border-2 border-black text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded;
 
     /* scale on hover effect */
-    @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;
+    /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
+    @apply hover:scale-105;
   }
 
   .project__copy {
@@ -18,11 +19,11 @@
     @apply mb-4;
   }
 
-  .project__copy p + p {
+  .project__copy p + * {
     @apply mt-2;
   }
 
-  .project__copy li {
+  .project__copy ul:not(.tags) li {
     @apply pt-2 md:pt-0;
   }
 
