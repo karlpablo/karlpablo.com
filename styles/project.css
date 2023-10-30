@@ -4,15 +4,27 @@
   }
 
   .project {
-    @apply relative bg-white border-2 border-black text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded;
+    @apply relative bg-white border-2 border-black text-black flex flex-col-reverse lg:flex-row lg:h-[400px] transition-all hard-shadow rounded;
+    @apply overflow-hidden;
 
     /* scale on hover effect */
     /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
     @apply hover:scale-105;
   }
 
+  .project__source {
+    @apply absolute z-50 p-2 bg-white shadow;
+    @apply w-36 h-12 top-0 -right-12;
+    @apply transform rotate-45;
+/*    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.125);*/
+  }
+
+  .project__source img {
+    @apply block w-8 h-8 mx-auto rounded;
+  }
+
   .project__copy {
-    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-black lg:border-0 bg-gray-100 lg:bg-white;
+    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-black lg:border-t-0 bg-gray-100 lg:bg-white;
   }
 
   .project__copy h3 {
