@@ -20,7 +20,7 @@
 
   .work__banner::before {
     content: "";
-    @apply absolute w-full h-full inset-0 z-10 bg-black -skew-x-12 rounded;
+    @apply absolute w-full h-full inset-0 z-10 bg-black -skew-x-12;
   }
 
   .work__header {

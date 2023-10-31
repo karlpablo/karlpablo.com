@@ -20,7 +20,7 @@
   }
 
   .project__desc {
-    @apply space-y-2;
+    @apply space-y-4;
   }
 
   .project__desc h3 {
@@ -28,11 +28,11 @@
   }
 
   .project__spec {
-    @apply flex flex-col sm:flex-row sm:flex-wrap bg-gray-200 lg:bg-gray-100 p-4 lg:p-2 mb-2 rounded text-sm;
+    @apply flex flex-row flex-wrap bg-gray-200 lg:bg-gray-100 p-2 sm:p-4 mb-2 rounded text-sm;
   }
 
   .project__spec > div {
-    @apply sm:w-1/2;
+    @apply w-1/2;
   }
 
   .project__spec span {
