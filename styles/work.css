@@ -12,7 +12,15 @@
 
   .work__banner {
     @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
-    @apply font-light bg-accent text-black border-2 border-black px-3 py-1 whitespace-nowrap rounded;
+  }
+
+  .work__banner span {
+    @apply block relative z-50 px-3 py-1 font-light text-white whitespace-nowrap text-sm;
+  }
+
+  .work__banner::before {
+    content: "";
+    @apply absolute w-full h-full inset-0 z-10 bg-black -skew-x-12 rounded;
   }
 
   .work__header {

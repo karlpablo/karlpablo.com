@@ -11,7 +11,7 @@
     @apply relative w-full h-full inset-0 z-50 px-2 py-1 text-black text-sm font-light;
   }
 
-  ul.tags li:before {
+  ul.tags li::before {
     content: "";
     box-shadow: 2px 2px 0px #000;
     @apply absolute w-full h-full inset-0 z-10 px-2 py-1 bg-accent -skew-x-12 rounded;
