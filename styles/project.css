@@ -28,7 +28,7 @@
   }
 
   .project__desc p {
-    @apply border-l-4 pl-4 border-action;
+    @apply border-l-4 pl-2 border-action;
   }
 
   .project__spec {
