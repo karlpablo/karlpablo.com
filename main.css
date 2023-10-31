@@ -24,14 +24,10 @@
   i { /* terms */
     @apply text-action font-bold not-italic;
   }
-
-  svg { /* icons */
-    @apply inline-block h-6 w-6 -mt-1 mx-1;
-  }
-
-  button svg,
-  a svg {
-    @apply mx-0;
+  
+  /* icons */
+  svg {
+    @apply inline-block h-5 sm:h-6 w-5 sm:w-6 -mt-1;
   }
 
   h2 {
