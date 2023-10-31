@@ -8,11 +8,15 @@
 
     /* scale on hover effect */
     /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
-    @apply hover:scale-105;
+    /* @apply hover:scale-105;*/
   }
 
   .project__copy {
     @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-black lg:border-0 bg-gray-100 lg:bg-white;
+  }
+
+  .project__copy .button {
+    @apply button--small;
   }
 
   .project__desc {
@@ -21,6 +25,18 @@
 
   .project__desc h3 {
     @apply inline-block border-b-4 border-black;
+  }
+
+  .project__spec {
+    @apply flex flex-col sm:flex-row sm:flex-wrap bg-gray-200 lg:bg-gray-100 p-4 lg:p-2 mb-2 rounded text-sm;
+  }
+
+  .project__spec > div {
+    @apply sm:w-1/2;
+  }
+
+  .project__spec span {
+    @apply font-bold;
   }
 
   .project__links {

@@ -7,7 +7,7 @@
 
   .work:not(.work--noscale) {
     /* scale on hover effect, except #opentowork */
-    @apply hover:scale-105;
+    /* @apply hover:scale-105;*/
   }
 
   .work__banner {
