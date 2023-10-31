@@ -15,10 +15,6 @@
     @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-gray-300 lg:border-0 bg-gray-100 lg:bg-white;
   }
 
-  .project__copy .button {
-    @apply button--small;
-  }
-
   .project__desc {
     @apply space-y-4;
   }
@@ -44,11 +40,11 @@
   }
 
   .project__links {
-    @apply ml-4 list-disc;
+    @apply flex flex-row gap-x-2;
   }
 
-  .project__links li {
-    @apply pt-2 md:pt-0;
+  .project__links a {
+    @apply button button--small;
   }
 
   .project__media {
