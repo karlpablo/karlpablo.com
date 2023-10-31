@@ -4,7 +4,7 @@
   }
 
   .project {
-    @apply relative bg-white border border-black text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded;
+    @apply relative bg-white text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded;
 
     /* scale on hover effect */
     /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
@@ -12,7 +12,7 @@
   }
 
   .project__copy {
-    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-black lg:border-0 bg-gray-100 lg:bg-white;
+    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-gray-300 lg:border-0 bg-gray-100 lg:bg-white;
   }
 
   .project__copy .button {
@@ -28,7 +28,7 @@
   }
 
   .project__desc p {
-    @apply border-l-4 pl-2 border-action;
+    @apply border-l-4 pl-2 border-gray-200;
   }
 
   .project__spec {

@@ -1,6 +1,6 @@
 @layer components {
   .work {
-    @apply relative bg-white border border-black text-black transition-all hard-shadow rounded;    
+    @apply relative bg-white text-black transition-all hard-shadow rounded;    
     /* make it scrollable (1 of 2) */
     /* @apply h-full flex flex-col; */
   }
@@ -36,7 +36,7 @@
   }
 
   .work__body {
-    @apply border-t border-black p-6 bg-gray-100 space-y-6 rounded-b;
+    @apply border-t border-gray-300 p-6 bg-gray-100 space-y-6 rounded-b;
 
     /* make it scrollable (2 of 2) */
     /* @apply h-full overflow-y-scroll; */
