@@ -23,6 +23,6 @@
   }
 
   .timeline__year span {
-    @apply relative z-50 text-white text-xl font-bold bg-primary px-4 py-2 rounded-xl;
+    @apply relative z-50 text-white text-xl font-bold bg-primary px-4 py-2 rounded-full;
   }
 }
