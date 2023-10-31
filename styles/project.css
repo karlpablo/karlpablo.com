@@ -19,6 +19,10 @@
     @apply space-y-2;
   }
 
+  .project__desc h3 {
+    @apply inline-block border-b-4 border-black;
+  }
+
   .project__links {
     @apply ml-4 list-disc;
   }
