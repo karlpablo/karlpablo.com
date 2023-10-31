@@ -4,7 +4,7 @@
   }
 
   ul.tags li {
-    @apply relative cursor-pointer hover:contrast-125;
+    @apply relative;
   }
 
   ul.tags li span {

@@ -5,9 +5,9 @@
     /* @apply h-full flex flex-col; */
   }
 
-  .work:not(.work--noscale) {
-    /* scale on hover effect, except #opentowork */
-    /* @apply hover:scale-105;*/
+  .work {
+    /* scale on hover effect */
+    @apply hover:scale-105;
   }
 
   .work__banner {

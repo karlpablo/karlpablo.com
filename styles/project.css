@@ -8,7 +8,7 @@
 
     /* scale on hover effect */
     /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
-    /* @apply hover:scale-105;*/
+    @apply hover:scale-105;
   }
 
   .project__copy {
