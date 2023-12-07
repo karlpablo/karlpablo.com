@@ -40,7 +40,7 @@
   }
 
   .project__media {
-    @apply relative w-auto lg:w-3/5 h-64 sm:h-96 lg:h-auto m-4 mb-0 lg:m-0;
+    @apply relative w-auto lg:w-3/5 h-64 sm:h-96 lg:h-auto m-6 mb-0 lg:m-0;
     @apply bg-cover bg-top lg:bg-right-top lg:grayscale;
     @apply rounded-lg lg:rounded-none border-2 border-black lg:border-0;
     box-shadow: inset 0 0 12px rgba(0 0 0 / 0.25);
