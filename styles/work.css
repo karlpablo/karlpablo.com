@@ -8,6 +8,7 @@
   .work {
     /* scale on hover effect */
     @apply hover:scale-105;
+    @apply border-2 border-black;
   }
 
   .work__banner {
@@ -15,12 +16,12 @@
   }
 
   .work__banner span {
-    @apply block relative z-50 px-3 py-1 font-light text-white whitespace-nowrap text-sm;
+    @apply block relative z-50 px-3 py-1 text-white whitespace-nowrap text-sm;
   }
 
   .work__banner::before {
     content: "";
-    @apply absolute w-full h-full inset-0 z-10 bg-black -skew-x-12;
+    @apply absolute w-full h-full inset-0 z-10 bg-black -skew-x-12 rounded;
   }
 
   .work__header {
@@ -36,7 +37,7 @@
   }
 
   .work__body {
-    @apply border-t border-gray-300 p-6 bg-gray-100 space-y-6 rounded-b;
+    @apply border-t-2 border-black p-6 bg-gray-100 space-y-6 rounded-b;
 
     /* make it scrollable (2 of 2) */
     /* @apply h-full overflow-y-scroll; */
@@ -49,6 +50,10 @@
   .work__achievement:before {
     content: "";
     background: url('/star.png') no-repeat;
-    @apply absolute w-8 h-8 left-0 top-0 transform -translate-x-full rotate-45 bg-contain;
+    @apply absolute w-8 h-8 left-0 top-0 transition transform -translate-x-full rotate-0 bg-contain;
+  }
+
+  .work:hover .work__achievement:before {
+    @apply rotate-[145deg] scale-110;
   }
 }
