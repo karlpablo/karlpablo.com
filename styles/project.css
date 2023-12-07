@@ -43,6 +43,16 @@
     @apply relative w-auto lg:w-3/5 h-64 sm:h-96 lg:h-auto m-4 mb-0 lg:m-0 bg-cover bg-top lg:bg-right-top lg:grayscale rounded-lg lg:rounded-none border-2 border-black lg:border-0;
   }
 
+  .project__media--breezeline { background-image: url('/posters/breezeline.png'); }
+  .project__media--myaccount { background-image: url('/posters/myaccount.png'); }
+  .project__media--eregulations { background-image: url('/posters/eregulations.png') }
+  .project__media--mazda { background-image: url('/posters/mazda.png') }
+  .project__media--cisco { background-image: url('/posters/cisco.png') }
+  .project__media--ibm { background-image: url('/posters/ibm.png') }
+  .project__media--vw { background-image: url('/posters/vw.png') }
+  .project__media--tgsmci { background-image: url('/posters/tgsmci.png') }
+  .project__media--acg { background-image: url('/posters/acg.png') }
+
   .project__media:after {
     content: "";
     @apply hidden lg:block absolute w-[200px] h-full bg-white transition -skew-x-12 -translate-x-[100px] border-r-2 border-black;
