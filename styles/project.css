@@ -4,7 +4,7 @@
   }
 
   .project {
-    @apply relative bg-white text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded border-2 border-black;
+    @apply relative bg-white text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded-lg border-2 border-black;
 
     /* scale on hover effect */
     @apply lg:hover:scale-105;

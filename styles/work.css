@@ -1,14 +1,11 @@
 @layer components {
   .work {
-    @apply relative bg-white text-black transition-all hard-shadow rounded;    
+    @apply relative bg-white text-black transition-all hard-shadow rounded-lg border-2 border-black;    
     /* make it scrollable (1 of 2) */
     /* @apply h-full flex flex-col; */
-  }
 
-  .work {
     /* scale on hover effect */
     @apply lg:hover:scale-105;
-    @apply border-2 border-black;
   }
 
   .work__banner {
@@ -25,7 +22,7 @@
   }
 
   .work__header {
-    @apply p-6 flex flex-row justify-start items-center bg-white leading-tight rounded;
+    @apply p-6 flex flex-row justify-start items-center bg-white leading-tight rounded-lg;
   }
 
   .work__header a {
@@ -37,11 +34,11 @@
   }
 
   .work__logo {
-    @apply w-10 h-10 mr-4 lg:w-12 lg:h-12 lg:mr-6 rounded;
+    @apply w-10 h-10 mr-4 lg:w-12 lg:h-12 lg:mr-6 rounded-lg;
   }
 
   .work__body {
-    @apply border-t-2 border-black p-6 bg-gray-100 space-y-6 rounded-b;
+    @apply border-t-2 border-black p-6 bg-gray-100 space-y-6 rounded-b-lg;
 
     /* make it scrollable (2 of 2) */
     /* @apply h-full overflow-y-scroll; */
