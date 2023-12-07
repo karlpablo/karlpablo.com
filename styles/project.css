@@ -4,29 +4,19 @@
   }
 
   .project {
-    @apply relative bg-white text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded;
+    @apply relative bg-white text-black flex flex-col-reverse lg:flex-row lg:h-[400px] overflow-hidden transition-all hard-shadow rounded border-2 border-black;
 
     /* scale on hover effect */
-    /* @apply hover:scale-105 grayscale-0 lg:grayscale hover:grayscale-0;*/
-    @apply hover:scale-105;
-    @apply border-2 border-black;
+    @apply lg:hover:scale-105;
   }
 
   .project__copy {
-    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 border-t border-gray-300 lg:border-t-0;
+    @apply w-full lg:w-2/5 p-6 flex flex-col justify-between gap-4 lg:border-t border-gray-300 lg:border-t-0;
     @apply relative z-50;
   }
 
   .project__desc {
     @apply space-y-4;
-  }
-
-  .project__desc h3 {
-    @apply inline-block;
-  }
-
-  .project__desc p {
-/*    @apply border-l-4 pl-2 border-gray-200;*/
   }
 
   .project__spec {
@@ -50,31 +40,19 @@
   }
 
   .project__media {
-    @apply bg-gray-100 relative w-full lg:w-3/5 pt-2 lg:pt-0 transition-all;
-    @apply relative bg-cover bg-right-top grayscale;
+    @apply relative w-auto lg:w-3/5 h-64 sm:h-96 lg:h-auto m-4 mb-0 lg:m-0 bg-cover bg-top lg:bg-right-top lg:grayscale rounded-lg lg:rounded-none border-2 border-black lg:border-0;
   }
 
   .project__media:after {
     content: "";
-    @apply hidden lg:block absolute w-[200px] h-full bg-white transition -skew-x-12 -translate-x-[100px];
-/*    @apply border-r border-gray-300;*/
-/*    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.15);*/
-      box-shadow: 2px 0px 0px #000;
+    @apply hidden lg:block absolute w-[200px] h-full bg-white transition -skew-x-12 -translate-x-[100px] border-r-2 border-black;
   }
 
   .project:hover .project__media {
-    @apply grayscale-0;
+    @apply lg:grayscale-0;
   }
 
   .project:hover .project__media:after {
-    @apply -translate-x-[150px];
-  }
-
-  .project__media--full {
-    @apply pl-2 pt-1 lg:p-0;
-  }
-
-  .project__media img {
-    @apply lg:absolute right-0 bottom-0 transition-all opacity-100;
+    @apply lg:-translate-x-[150px];
   }
 }
