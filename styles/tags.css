@@ -8,12 +8,11 @@
   }
 
   ul.tags li span {
-    @apply relative w-full h-full inset-0 z-50 px-2 py-1 text-black text-sm;
+    @apply relative w-full h-full inset-0 z-50 px-3 py-2 text-black text-sm;
   }
 
   ul.tags li::before {
     content: "";
-    box-shadow: 1px 1px 0px #000;
-    @apply absolute w-full h-full inset-0 z-10 px-2 py-1 bg-accent rounded -skew-x-12;
+    @apply absolute w-full h-full inset-0 z-10 px-2 py-1 bg-accent rounded -skew-x-12 border-2 border-black;
   }
 }
