@@ -58,7 +58,7 @@
   .project__media:before {
     content: "";
     @apply absolute w-full h-full bg-red-200 top-0 left-0;
-    background: linear-gradient(to bottom right, transparent 50%, rgba(0 0 0 / 0.1) 50%);
+    background: linear-gradient(to bottom right, rgba(255 255 255 / 0.1) 50%, rgba(0 0 0 / 0.1) 50%);
   }
 
   .project__media--breezeline { background-image: url('/posters/breezeline.webp'); }
