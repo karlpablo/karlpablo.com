@@ -47,7 +47,7 @@
   }
 
   h3 {
-    @apply font-bold text-lg md:text-xl;
+    @apply font-bold text-xl md:text-2xl;
   }
 
   section, footer {

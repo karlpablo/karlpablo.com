@@ -19,12 +19,20 @@
     @apply space-y-4;
   }
 
+  .project__desc h3 {
+    @apply text-center;
+  }
+
+  .project__desc .tags {
+    @apply justify-center;
+  }
+
   .project__spec {
-    @apply flex flex-row flex-wrap bg-gray-100 px-3 py-2 mb-2 text-sm rounded;
+    @apply flex flex-col sm:flex-row flex-wrap bg-gray-100 px-3 py-2 mb-2 text-sm rounded;
   }
 
   .project__spec > div {
-    @apply w-1/2;
+    @apply w-full sm:w-1/2;
   }
 
   .project__spec span {
@@ -32,7 +40,7 @@
   }
 
   .project__links {
-    @apply flex flex-row gap-x-2;
+    @apply flex flex-row gap-x-2 justify-end lg:justify-start;
   }
 
   .project__links a {
