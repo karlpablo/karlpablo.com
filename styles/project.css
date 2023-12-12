@@ -28,8 +28,7 @@
   }
 
   .project__spec {
-    @apply flex flex-col sm:flex-row flex-wrap bg-gray-100 px-3 py-2 mb-2 text-sm rounded;
-    display: none;
+    @apply flex flex-col sm:flex-row flex-wrap bg-gray-100 p-3 mb-2 text-sm rounded;
   }
 
   .project__spec > div {

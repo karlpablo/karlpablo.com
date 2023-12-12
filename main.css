@@ -62,8 +62,8 @@
     box-shadow: 6px 6px 0px #000;
   }
 
-  .hard-shadow-white {
-    box-shadow: 6px 6px 0px #fff;
+  .hard-shadow-alt {
+    box-shadow: 6px 6px 0px #2A9D8F;
   }
 
   .disapprove:hover .avatar {
