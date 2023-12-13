@@ -40,7 +40,7 @@
   }
 
   .project__links {
-    @apply flex flex-row gap-x-2 justify-end lg:justify-start;
+    @apply flex flex-row gap-x-2 justify-center lg:justify-start;
   }
 
   .project__links a {
